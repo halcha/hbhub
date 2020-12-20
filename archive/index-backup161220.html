@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+   <title>hbhub frontend</title>
+ <meta name="author" content="name">
+ <meta name="description" content="description here">
+ <meta name="keywords" content="keywords,here">
+ <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="stylesheet" href="./css/reset.css" type="text/css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="./css/styles-backup.css" type="text/css">
+ </head>
+ <body>
+   <nav>
+     <!-- container for logo and close button -->
+     <div>
+      <!-- container for logo  -->
+      <div>
+       <img src="./assets/logo.svg">
+      </div>
+      <!-- mobile menu close button -->
+       <button>
+        <img src="./assets/close.svg">
+       </button>
+    </div>
+    <hr>
+    <!-- <template> -->
+     <ul>
+       <li>
+        <a href="#">
+    <!-- container for home icon  -->
+          <div>
+          <img src="./assets/home.svg">
+          </div>
+          <p>Home</p>
+        </a>
+      </li>
+      <li>
+       <a href="#">
+    <!-- container for rewards icon  -->
+         <div>
+         <img src="./assets/rewards.svg">
+         </div>
+         <p>My Rewards</p>
+       </a>
+      </li>
+      <li>
+        <a href="#">
+<!-- container for profile icon  -->
+          <div>
+          <img src="./assets/profile.svg">
+          </div>
+          <p>My Profile</p>
+<!-- notification icon ready for integration with data (uncomment template tags to hide)  -->
+          <!-- <template> -->
+          <div class="notif">
+            <p>4</p>
+          </div>
+        <!-- </template> -->
+        </a>
+      </li>
+      <li>
+<!-- a clickable dropdown that mimics the flex boxes of other list items with absolute positioning  -->
+        <button class="menu-item-with-nested-items">
+<!-- an absolutely positioned image  -->
+         <img src="./assets/about.svg" class="icon">
+          <p>About</p>
+         <img src="./assets/chevron.svg" class="chevron">
+        </button>
+        <ul>
+          <li><a href="#">What is HB Hub?</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+<!-- container for logout icon  -->
+        <div>
+        <img src="./assets/logout.svg">
+        </div>
+        <p>Logout</p>
+        </a>
+      </li>
+    </ul>
+  <!-- </template> -->
+  </nav>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js" integrity="sha512-zT3zHcFYbQwjHdKjCu6OMmETx8fJA9S7E6W7kBeFxultf75OPTYUJigEKX58qgyQMi1m1EgenfjMXlRZG8BXaw==" crossorigin="anonymous"></script>
+ </body>
+</html>

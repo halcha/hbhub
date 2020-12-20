@@ -1,0 +1,190 @@
+/* line 1, D:/Projects/local-repos/hbhub/sass/partials/_globals.scss */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* line 5, D:/Projects/local-repos/hbhub/sass/partials/_globals.scss */
+button {
+  cursor: pointer;
+}
+
+/* line 1, D:/Projects/local-repos/hbhub/sass/partials/_home.scss */
+header {
+  height: auto;
+  padding: 3.5vh 5vw;
+  background-image: linear-gradient(to right, #2C989B, #a9d5d7);
+}
+
+/* line 6, D:/Projects/local-repos/hbhub/sass/partials/_home.scss */
+header div {
+  display: flex;
+}
+
+/* line 9, D:/Projects/local-repos/hbhub/sass/partials/_home.scss */
+header div .logo-container {
+  flex-grow: 3;
+}
+
+/* line 13, D:/Projects/local-repos/hbhub/sass/partials/_home.scss */
+header div button {
+  padding: 0;
+  background: none;
+  border: none;
+  flex-grow: 1;
+}
+
+/* line 18, D:/Projects/local-repos/hbhub/sass/partials/_home.scss */
+header div button img {
+  float: right;
+}
+
+/* line 23, D:/Projects/local-repos/hbhub/sass/partials/_home.scss */
+header .user-details {
+  display: flex;
+  margin-top: 1rem;
+}
+
+/* line 27, D:/Projects/local-repos/hbhub/sass/partials/_home.scss */
+header .user-name {
+  padding-right: 1rem;
+  border-left: 2px #f6f6f6;
+}
+
+/* line 2, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+.mobile-nav {
+  height: 93vh;
+  padding: 3.5vh 5vw;
+  background-image: linear-gradient(to right, #2C989B, #a9d5d7);
+}
+
+/* line 6, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+.mobile-nav a {
+  color: #f6f6f6;
+  text-decoration: none;
+}
+
+/* line 11, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+.mobile-nav div {
+  display: flex;
+}
+
+/* line 14, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+.mobile-nav div div {
+  flex-grow: 3;
+}
+
+/* line 18, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+.mobile-nav div button {
+  padding: 0;
+  background: none;
+  border: none;
+  flex-grow: 1;
+}
+
+/* line 23, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+.mobile-nav div button img {
+  float: right;
+}
+
+/* line 29, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+.mobile-nav hr {
+  color: #f6f6f6;
+  border-style: solid;
+  margin-bottom: 1rem;
+}
+
+/* line 35, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+.mobile-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* line 39, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+.mobile-nav ul li {
+  position: relative;
+}
+
+/* line 42, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+.mobile-nav ul li .menu-item-content {
+  display: flex;
+  padding: .25rem 0;
+  color: #f6f6f6;
+  border-radius: .5rem;
+  background: none;
+  border: none;
+}
+
+/* line 49, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+.mobile-nav ul li .menu-item-content div {
+  width: 2rem;
+}
+
+/* line 51, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+.mobile-nav ul li .menu-item-content div img {
+  display: block;
+  margin: auto;
+}
+
+/* line 56, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+.mobile-nav ul li .menu-item-content p {
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+/* line 63, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+.mobile-nav ul li a:active {
+  background: rgba(73, 82, 109, 0.25);
+}
+
+/* line 66, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+.mobile-nav ul li .chevron {
+  padding-left: .5rem;
+}
+
+/* line 70, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+.mobile-nav ul li ul {
+  list-style-type: disc;
+  padding-left: 3rem;
+  color: #f6f6f6;
+}
+
+/* line 75, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+.mobile-nav ul li ul li {
+  border-radius: .25rem;
+  padding: .5rem 0;
+}
+
+/* line 78, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+.mobile-nav ul li ul li a:active {
+  background: none;
+}
+
+/* line 82, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+.mobile-nav ul li ul li:active {
+  background: rgba(73, 82, 109, 0.25);
+}
+
+/* line 3, D:/Projects/local-repos/hbhub/sass/partials/_notification.scss */
+.notif {
+  width: 1.25rem !important;
+  height: 1.25rem;
+  border-radius: 1rem;
+  background-color: #ff9285;
+  margin-left: 1rem;
+  margin-top: .875rem;
+  display: block;
+  position: relative;
+}
+
+/* line 12, D:/Projects/local-repos/hbhub/sass/partials/_notification.scss */
+.notif p {
+  font-size: .75rem;
+  position: absolute;
+  margin: 0 !important;
+  top: .1875rem;
+  left: .35rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

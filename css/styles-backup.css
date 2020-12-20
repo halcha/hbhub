@@ -1,0 +1,136 @@
+/* line 9, D:/Projects/local-repos/hbhub/sass/styles-backup.scss */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* line 14, D:/Projects/local-repos/hbhub/sass/styles-backup.scss */
+nav {
+  height: 93vh;
+  padding: 3.5vh 5vw;
+  background-image: linear-gradient(to right, #2C989B, #a9d5d7);
+}
+
+/* line 19, D:/Projects/local-repos/hbhub/sass/styles-backup.scss */
+nav div {
+  display: flex;
+}
+
+/* line 22, D:/Projects/local-repos/hbhub/sass/styles-backup.scss */
+nav div div {
+  flex-grow: 3;
+}
+
+/* line 26, D:/Projects/local-repos/hbhub/sass/styles-backup.scss */
+nav div button {
+  padding: 0;
+  background: none;
+  border: none;
+  flex-grow: 1;
+}
+
+/* line 31, D:/Projects/local-repos/hbhub/sass/styles-backup.scss */
+nav div button img {
+  float: right;
+}
+
+/* line 37, D:/Projects/local-repos/hbhub/sass/styles-backup.scss */
+nav hr {
+  color: #f6f6f6;
+  border-style: solid;
+  margin-bottom: 1rem;
+}
+
+/* line 45, D:/Projects/local-repos/hbhub/sass/styles-backup.scss */
+nav ul li {
+  position: relative;
+}
+
+/* line 47, D:/Projects/local-repos/hbhub/sass/styles-backup.scss */
+nav ul li a {
+  display: flex;
+  padding: 1rem 0;
+  text-decoration: none;
+  color: #f6f6f6;
+  border-radius: .5rem;
+}
+
+/* line 53, D:/Projects/local-repos/hbhub/sass/styles-backup.scss */
+nav ul li a div {
+  width: 2rem;
+}
+
+/* line 55, D:/Projects/local-repos/hbhub/sass/styles-backup.scss */
+nav ul li a div img {
+  display: block;
+  margin: auto;
+}
+
+/* line 60, D:/Projects/local-repos/hbhub/sass/styles-backup.scss */
+nav ul li a p {
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  margin-left: 1rem;
+  margin-top: .15rem;
+}
+
+/* line 67, D:/Projects/local-repos/hbhub/sass/styles-backup.scss */
+nav ul li a:active {
+  background: rgba(73, 82, 109, 0.25);
+}
+
+/* line 71, D:/Projects/local-repos/hbhub/sass/styles-backup.scss */
+nav ul li .menu-item-with-nested-items {
+  display: block;
+  position: relative;
+  background: none;
+  border: none;
+}
+
+/* line 76, D:/Projects/local-repos/hbhub/sass/styles-backup.scss */
+nav ul li .menu-item-with-nested-items img {
+  display: block;
+  position: absolute;
+}
+
+/* line 80, D:/Projects/local-repos/hbhub/sass/styles-backup.scss */
+nav ul li .menu-item-with-nested-items .icon {
+  top: .375rem;
+  left: .375rem;
+}
+
+/* line 84, D:/Projects/local-repos/hbhub/sass/styles-backup.scss */
+nav ul li .menu-item-with-nested-items p {
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #f6f6f6;
+  font-size: 1rem;
+}
+
+/* line 106, D:/Projects/local-repos/hbhub/sass/styles-backup.scss */
+nav ul li ul {
+  list-style-type: disc;
+  padding-left: 3rem;
+  color: #f6f6f6;
+}
+
+/* line 117, D:/Projects/local-repos/hbhub/sass/styles-backup.scss */
+.notif {
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 1rem;
+  background-color: #ff9285;
+  margin-left: 1rem;
+  display: block;
+  position: relative;
+}
+
+/* line 125, D:/Projects/local-repos/hbhub/sass/styles-backup.scss */
+.notif p {
+  font-size: .75rem;
+  position: absolute;
+  margin: 0;
+  top: .25rem;
+  left: .35rem;
+}
+
+/*# sourceMappingURL=styles-backup.css.map */

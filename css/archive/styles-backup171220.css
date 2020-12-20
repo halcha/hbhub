@@ -1,0 +1,168 @@
+/* line 9, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* line 13, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+button {
+  cursor: pointer;
+}
+
+/* line 18, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+nav {
+  height: 93vh;
+  padding: 3.5vh 5vw;
+  background-image: linear-gradient(to right, #2C989B, #a9d5d7);
+}
+
+/* line 22, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+nav a {
+  color: #f6f6f6;
+  text-decoration: none;
+}
+
+/* line 27, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+nav div {
+  display: flex;
+}
+
+/* line 30, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+nav div div {
+  flex-grow: 3;
+}
+
+/* line 34, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+nav div button {
+  padding: 0;
+  background: none;
+  border: none;
+  flex-grow: 1;
+}
+
+/* line 39, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+nav div button img {
+  float: right;
+}
+
+/* line 45, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+nav hr {
+  color: #f6f6f6;
+  border-style: solid;
+  margin-bottom: 1rem;
+}
+
+/* line 51, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* line 55, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+nav ul li {
+  position: relative;
+}
+
+/* line 58, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+nav ul li .menu-item-content {
+  display: flex;
+  padding: .25rem 0;
+  color: #f6f6f6;
+  border-radius: .5rem;
+  background: none;
+  border: none;
+}
+
+/* line 65, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+nav ul li .menu-item-content div {
+  width: 2rem;
+}
+
+/* line 67, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+nav ul li .menu-item-content div img {
+  display: block;
+  margin: auto;
+}
+
+/* line 72, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+nav ul li .menu-item-content p {
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+/* line 79, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+nav ul li button.menu-item-content {
+  position: relative;
+  z-index: 2;
+}
+
+/* line 82, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+nav ul li button.menu-item-content div, nav ul li button.menu-item-content p, nav ul li button.menu-item-content img {
+  position: inherit;
+  background-color: red;
+  z-index: 1;
+}
+
+/* line 88, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+nav ul li a:active {
+  background: rgba(73, 82, 109, 0.25);
+}
+
+/* line 91, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+nav ul li .chevron {
+  padding-left: .5rem;
+}
+
+/* line 95, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+nav ul li ul {
+  display: none;
+  list-style-type: disc;
+  padding-left: 3rem;
+  color: #f6f6f6;
+}
+
+/* line 100, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+nav ul li ul li {
+  border-radius: .25rem;
+  padding: .5rem 0;
+}
+
+/* line 103, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+nav ul li ul li a:active {
+  background: none;
+}
+
+/* line 107, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+nav ul li ul li:active {
+  background: rgba(73, 82, 109, 0.25);
+}
+
+/* line 117, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+.notif {
+  width: 1.25rem !important;
+  height: 1.25rem;
+  border-radius: 1rem;
+  background-color: #ff9285;
+  margin-left: 1rem;
+  margin-top: .875rem;
+  display: block;
+  position: relative;
+}
+
+/* line 126, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+.notif p {
+  font-size: .75rem;
+  position: absolute;
+  margin: 0 !important;
+  top: .1875rem;
+  left: .35rem;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+/* line 136, D:/Projects/local-repos/hbhub/sass/archive/styles-backup171220.scss */
+.show {
+  display: block;
+}
+
+/*# sourceMappingURL=styles-backup171220.css.map */

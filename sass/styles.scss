@@ -1,0 +1,14 @@
+//variables
+$teal-primary: linear-gradient(to right, #2C989B, #a9d5d7);
+$font-primary: 'Montserrat', sans-serif;
+$off-white: #f6f6f6;
+$charcoal: #323232;
+$highlight: #49526d;
+$opaque-highlight: rgba(73,82,109,.25);
+$secondary: #ff9285;
+
+@import 'reset';
+@import 'partials/globals';
+@import 'partials/home';
+@import 'partials/mobile-nav';
+@import 'partials/notification';

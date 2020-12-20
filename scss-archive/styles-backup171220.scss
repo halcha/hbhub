@@ -1,0 +1,138 @@
+$teal-primary: linear-gradient(to right, #2C989B, #a9d5d7);
+$font-primary: 'Montserrat', sans-serif;
+$off-white: #f6f6f6;
+$charcoal: #323232;
+$highlight: #49526d;
+$opaque-highlight: rgba(73,82,109,.25);
+$secondary: #ff9285;
+
+body {
+  font-family: $font-primary;
+}
+
+button {
+  cursor: pointer;
+}
+
+// flex container for list items in mobile menu
+nav {
+  height: 93vh;
+  padding: 3.5vh 5vw;
+  background-image: $teal-primary;
+  a {
+    color: $off-white;
+    text-decoration: none;
+  }
+ // container for logo and close button
+  div {
+    display: flex;
+// container for logo
+    div {
+      flex-grow: 3;
+    }
+// mobile menu close button
+    button {
+      padding: 0;
+      background: none;
+      border: none;
+      flex-grow: 1;
+      img {
+        float: right;
+      }
+    }
+  }
+//horizontal rule between logo and mobile menu items
+  hr {
+    color: $off-white;
+    border-style: solid;
+    margin-bottom: 1rem;
+  }
+//mobile menu
+  ul {
+    list-style-type: none;
+    padding: 0;
+//mobile menu items
+    li {
+      position: relative;
+// mobile menu items content
+      .menu-item-content {
+        display: flex;
+        padding: .25rem 0;
+        color: $off-white;
+        border-radius: .5rem;
+        background: none;
+        border: none;
+        div {
+          width: 2rem;
+        img {
+          display: block;
+          margin: auto;
+        }
+      }
+        p {
+          text-transform: uppercase;
+          letter-spacing: .1rem;
+          margin-left: 1rem;
+          margin-top: 1rem;
+        }
+      }
+      button.menu-item-content {
+        position: relative;
+        z-index: 2;
+        div,p,img {
+          position: inherit;
+          background-color: red;
+          z-index: 1;
+        }
+      }
+      a:active {
+        background: $opaque-highlight;
+      }
+      .chevron {
+        padding-left: .5rem;
+      }
+  // nested menu items
+      ul {
+        display: none;
+        list-style-type: disc;
+        padding-left: 3rem;
+        color: $off-white;
+        li {
+          border-radius: .25rem;
+          padding: .5rem 0;
+          a:active {
+            background: none;
+          }
+        }
+        li:active {
+          background: $opaque-highlight;
+        }
+      }
+    }
+  }
+}
+
+//notification class (non functional prototype ready for data integration)
+
+.notif {
+  width: 1.25rem !important;
+  height: 1.25rem;
+  border-radius: 1rem;
+  background-color: $secondary;
+  margin-left: 1rem;
+  margin-top: .875rem;
+  display: block;
+  position: relative;
+  p {
+    font-size: .75rem;
+    position: absolute;
+    margin: 0 !important;
+    top: .1875rem;
+    left: .35rem;
+  }
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display:block;
+}

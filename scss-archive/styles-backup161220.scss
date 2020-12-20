@@ -1,0 +1,132 @@
+$teal-primary: linear-gradient(to right, #2C989B, #a9d5d7);
+$font-primary: 'Montserrat', sans-serif;
+$off-white: #f6f6f6;
+$charcoal: #323232;
+$highlight: #49526d;
+$opaque-highlight: rgba(73,82,109,.25);
+$secondary: #ff9285;
+
+body {
+  font-family: $font-primary;
+}
+
+// flex container for list items in mobile menu
+nav {
+  height: 93vh;
+  padding: 3.5vh 5vw;
+  background-image: $teal-primary;
+ // container for logo and close button
+  div {
+    display: flex;
+// container for logo
+    div {
+      flex-grow: 3;
+    }
+// mobile menu close button
+    button {
+      padding: 0;
+      background: none;
+      border: none;
+      flex-grow: 1;
+      img {
+        float: right;
+      }
+    }
+  }
+//horizontal rule between logo and mobile menu items
+  hr {
+    color: $off-white;
+    border-style: solid;
+    margin-bottom: 1rem;
+  }
+//mobile menu
+  ul {
+//mobile menu items
+    li {
+      position: relative;
+      a {
+        display: flex;
+        padding: 1rem 0;
+        text-decoration: none;
+        color: $off-white;
+        border-radius: .5rem;
+        div {
+          width: 2rem;
+        img {
+          display: block;
+          margin: auto;
+        }
+      }
+        p {
+          text-transform: uppercase;
+          letter-spacing: .1rem;
+          margin-left: 1rem;
+          margin-top: .15rem;
+        }
+      }
+      a:active {
+        background: $opaque-highlight;
+      }
+  // classes for that annoying menu item that isn't a link but a dropdown of nested links. thanks Ed..
+      .menu-item-with-nested-items {
+        display: block;
+        position: relative;
+        background: none;
+        border: none;
+        img {
+          display: block;
+          position: absolute;
+        }
+        .icon {
+          top: .375rem;
+          left: .375rem;
+        }
+        p {
+          text-transform: uppercase;
+          letter-spacing: .1rem;
+          color: $off-white;
+          font-size: 1rem;
+        }
+        .chevron {
+
+        }
+      }
+
+  //clickable dropdown
+      // button {
+      //   width: 2rem;
+      //   height: 2rem;
+      //   padding: 0;
+      //
+      //   position: absolute;
+      //   top: 0.625rem;
+      //   left: 7.25rem;
+      // }
+  // nested menu items
+      ul {
+        list-style-type: disc;
+        padding-left: 3rem;
+        color: $off-white;
+      }
+    }
+  }
+}
+
+//notification class (non functional prototype ready for data integration)
+
+.notif {
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 1rem;
+  background-color: $secondary;
+  margin-left: 1rem;
+  display: block;
+  position: relative;
+  p {
+    font-size: .75rem;
+    position: absolute;
+    margin: 0;
+    top: .25rem;
+    left: .35rem;
+  }
+}

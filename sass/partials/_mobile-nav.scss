@@ -1,0 +1,88 @@
+// flex container for list items in mobile menu
+.mobile-nav {
+  height: 93vh;
+  padding: 3.5vh 5vw;
+  background-image: $teal-primary;
+  a {
+    color: $off-white;
+    text-decoration: none;
+  }
+ // container for logo and close button
+  div {
+    display: flex;
+// container for logo
+    div {
+      flex-grow: 3;
+    }
+// mobile menu close button
+    button {
+      padding: 0;
+      background: none;
+      border: none;
+      flex-grow: 1;
+      img {
+        float: right;
+      }
+    }
+  }
+//horizontal rule between logo and mobile menu items
+  hr {
+    color: $off-white;
+    border-style: solid;
+    margin-bottom: 1rem;
+  }
+//mobile menu
+  ul {
+    list-style-type: none;
+    padding: 0;
+//mobile menu items
+    li {
+      position: relative;
+// mobile menu items content
+      .menu-item-content {
+        display: flex;
+        padding: .25rem 0;
+        color: $off-white;
+        border-radius: .5rem;
+        background: none;
+        border: none;
+        div {
+          width: 2rem;
+        img {
+          display: block;
+          margin: auto;
+        }
+      }
+        p {
+          text-transform: uppercase;
+          letter-spacing: .1rem;
+          margin-left: 1rem;
+          margin-top: 1rem;
+        }
+      }
+      a:active {
+        background: $opaque-highlight;
+      }
+      .chevron {
+        padding-left: .5rem;
+      }
+  // nested menu items
+      ul {
+      //  display: none;
+        list-style-type: disc;
+        padding-left: 3rem;
+        color: $off-white;
+        li {
+          border-radius: .25rem;
+          padding: .5rem 0;
+          a:active {
+            background: none;
+          }
+        }
+        li:active {
+          background: $opaque-highlight;
+        }
+      }
+    }
+  }
+}
