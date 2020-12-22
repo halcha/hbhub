@@ -1,5 +1,42 @@
+//-colours
+$teal-primary: linear-gradient(to right, #2C989B, #a9d5d7);
+$copy-grey: #989898;
+$divider-grey: #ececec;
+$off-white: #f6f6f6;
+$charcoal: #323232;
+$highlight: #49526d;
+$opaque-highlight: rgba(73,82,109,.25);
+$secondary: #ff9285;
+//-typography
+$font-primary: 'Montserrat', sans-serif;
+$title: 'Montserrat', sans-serif;
+$title-weight: 600;
+$heading: $title;
+$heading-weight: 500;
+$sub-heading: $title;
+$sub-heading-weight: 400;
+$copy: 'Lato', sans-serif;
+$copy-weight: 300;
+
+//-general variables
+$header-height: 9rem;
+$mobile-margin: 1.5rem;
+$box-shadow: 0 2px 4px 0 rgba(200, 200, 200, 0.2), 0 3px 10px 0 rgba(200, 200, 200, 0.3);
+
+//-dynamic variable (ready for data integration)--xxx
+//--change to show percentage of way to next tier
+$status-bar-progress: .75;
+//--the amount of list items in different horizontal scroll sections (can change later to one variable for dynamic system)
+$stats-and-polls-card-count: 5;
+
+:root {
+  font-size: 12px;
+  letter-spacing: .1rem;
+}
+
 body {
-  font-family: $font-primary;
+  font-family: $copy;
+  font-weight: $copy-weight;
 }
 
 button {

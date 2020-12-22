@@ -1,10 +1,15 @@
 header {
-  height: auto;
-  padding: 3.5vh 5vw;
+  height: $header-height;
+  padding: 0 $mobile-margin;
   background-image: $teal-primary;
+  color: $off-white;
+
+  section {
+    display: flex; 
+  }
  // container for logo and close button
-  div {
-    display: flex;
+  section:nth-child(1) {
+    padding: 2rem 0 0 0;
 // container for logo
     .logo-container {
       flex-grow: 3;
@@ -22,10 +27,40 @@ header {
   }
   .user-details {
     display: flex;
-    margin-top: 1rem;
-  }
-    .user-name {
+    font-weight: bold;
+    padding-top: 1rem;
+    //float: right;
+    p:nth-child(1) {
       padding-right: 1rem;
       border-right: 2px solid $off-white ;
     }
+    p:nth-child(2) {
+      padding-left: 1rem;
+      //border-right: 2px solid $off-white ;
+      span {
+        font-weight: normal;
+        text-transform: uppercase;
+      }
+    }
+  } 
+}
+
+.content {
+  // content height = full mobile screen - combined divider height - header height
+  height: calc(100vh - .3rem - #{$header-height});
+  background-color: $off-white;
+  section {
+    display: flex;
+    align-items: center;
+    border-bottom: $divider-grey solid .1rem;
+  }
+  .stats-and-polls {
+    height: 25%;
+    width: auto;
+  }
+  .surveys-quizzes {
+    height: 37.5%;
+    width: auto;
+    //background-color: rgb(44, 116, 54);
+  }
 }

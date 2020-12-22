@@ -1,79 +1,132 @@
-/* line 1, D:/Projects/local-repos/hbhub/sass/partials/_globals.scss */
-body {
-  font-family: "Montserrat", sans-serif;
+/* line 32, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_globals.scss */
+:root {
+  font-size: 12px;
+  letter-spacing: .1rem;
 }
 
-/* line 5, D:/Projects/local-repos/hbhub/sass/partials/_globals.scss */
+/* line 37, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_globals.scss */
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+/* line 42, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_globals.scss */
 button {
   cursor: pointer;
 }
 
-/* line 1, D:/Projects/local-repos/hbhub/sass/partials/_home.scss */
+/* line 1, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_home.scss */
 header {
-  height: auto;
-  padding: 3.5vh 5vw;
+  height: 9rem;
+  padding: 0 1.5rem;
   background-image: linear-gradient(to right, #2C989B, #a9d5d7);
+  color: #f6f6f6;
 }
 
-/* line 6, D:/Projects/local-repos/hbhub/sass/partials/_home.scss */
-header div {
+/* line 7, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_home.scss */
+header section {
   display: flex;
 }
 
-/* line 9, D:/Projects/local-repos/hbhub/sass/partials/_home.scss */
-header div .logo-container {
+/* line 11, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_home.scss */
+header section:nth-child(1) {
+  padding: 2rem 0 0 0;
+}
+
+/* line 14, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_home.scss */
+header section:nth-child(1) .logo-container {
   flex-grow: 3;
 }
 
-/* line 13, D:/Projects/local-repos/hbhub/sass/partials/_home.scss */
-header div button {
+/* line 18, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_home.scss */
+header section:nth-child(1) button {
   padding: 0;
   background: none;
   border: none;
   flex-grow: 1;
 }
 
-/* line 18, D:/Projects/local-repos/hbhub/sass/partials/_home.scss */
-header div button img {
+/* line 23, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_home.scss */
+header section:nth-child(1) button img {
   float: right;
 }
 
-/* line 23, D:/Projects/local-repos/hbhub/sass/partials/_home.scss */
+/* line 28, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_home.scss */
 header .user-details {
   display: flex;
-  margin-top: 1rem;
+  font-weight: bold;
+  padding-top: 1rem;
 }
 
-/* line 27, D:/Projects/local-repos/hbhub/sass/partials/_home.scss */
-header .user-name {
+/* line 33, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_home.scss */
+header .user-details p:nth-child(1) {
   padding-right: 1rem;
-  border-left: 2px #f6f6f6;
+  border-right: 2px solid #f6f6f6;
 }
 
-/* line 2, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+/* line 37, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_home.scss */
+header .user-details p:nth-child(2) {
+  padding-left: 1rem;
+}
+
+/* line 40, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_home.scss */
+header .user-details p:nth-child(2) span {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* line 48, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_home.scss */
+.content {
+  height: calc(100vh - .3rem - 9rem);
+  background-color: #f6f6f6;
+}
+
+/* line 52, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_home.scss */
+.content section {
+  display: flex;
+  align-items: center;
+  border-bottom: #ececec solid 0.1rem;
+}
+
+/* line 57, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_home.scss */
+.content .stats-and-polls {
+  height: 25%;
+  width: auto;
+}
+
+/* line 61, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_home.scss */
+.content .surveys-quizzes {
+  height: 37.5%;
+  width: auto;
+}
+
+/* line 2, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_mobile-nav.scss */
 .mobile-nav {
   height: 93vh;
   padding: 3.5vh 5vw;
   background-image: linear-gradient(to right, #2C989B, #a9d5d7);
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
-/* line 6, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+/* line 9, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_mobile-nav.scss */
 .mobile-nav a {
   color: #f6f6f6;
   text-decoration: none;
 }
 
-/* line 11, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+/* line 14, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_mobile-nav.scss */
 .mobile-nav div {
   display: flex;
 }
 
-/* line 14, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+/* line 17, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_mobile-nav.scss */
 .mobile-nav div div {
   flex-grow: 3;
 }
 
-/* line 18, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+/* line 21, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_mobile-nav.scss */
 .mobile-nav div button {
   padding: 0;
   background: none;
@@ -81,30 +134,30 @@ header .user-name {
   flex-grow: 1;
 }
 
-/* line 23, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+/* line 26, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_mobile-nav.scss */
 .mobile-nav div button img {
   float: right;
 }
 
-/* line 29, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+/* line 32, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_mobile-nav.scss */
 .mobile-nav hr {
   color: #f6f6f6;
   border-style: solid;
   margin-bottom: 1rem;
 }
 
-/* line 35, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+/* line 38, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_mobile-nav.scss */
 .mobile-nav ul {
   list-style-type: none;
   padding: 0;
 }
 
-/* line 39, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+/* line 42, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_mobile-nav.scss */
 .mobile-nav ul li {
   position: relative;
 }
 
-/* line 42, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+/* line 45, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_mobile-nav.scss */
 .mobile-nav ul li .menu-item-content {
   display: flex;
   padding: .25rem 0;
@@ -114,18 +167,18 @@ header .user-name {
   border: none;
 }
 
-/* line 49, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+/* line 52, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_mobile-nav.scss */
 .mobile-nav ul li .menu-item-content div {
   width: 2rem;
 }
 
-/* line 51, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+/* line 54, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_mobile-nav.scss */
 .mobile-nav ul li .menu-item-content div img {
   display: block;
   margin: auto;
 }
 
-/* line 56, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+/* line 59, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_mobile-nav.scss */
 .mobile-nav ul li .menu-item-content p {
   text-transform: uppercase;
   letter-spacing: .1rem;
@@ -133,40 +186,40 @@ header .user-name {
   margin-top: 1rem;
 }
 
-/* line 63, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+/* line 66, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_mobile-nav.scss */
 .mobile-nav ul li a:active {
   background: rgba(73, 82, 109, 0.25);
 }
 
-/* line 66, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+/* line 69, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_mobile-nav.scss */
 .mobile-nav ul li .chevron {
   padding-left: .5rem;
 }
 
-/* line 70, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+/* line 73, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_mobile-nav.scss */
 .mobile-nav ul li ul {
   list-style-type: disc;
   padding-left: 3rem;
   color: #f6f6f6;
 }
 
-/* line 75, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+/* line 78, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_mobile-nav.scss */
 .mobile-nav ul li ul li {
   border-radius: .25rem;
   padding: .5rem 0;
 }
 
-/* line 78, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+/* line 81, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_mobile-nav.scss */
 .mobile-nav ul li ul li a:active {
   background: none;
 }
 
-/* line 82, D:/Projects/local-repos/hbhub/sass/partials/_mobile-nav.scss */
+/* line 85, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_mobile-nav.scss */
 .mobile-nav ul li ul li:active {
   background: rgba(73, 82, 109, 0.25);
 }
 
-/* line 3, D:/Projects/local-repos/hbhub/sass/partials/_notification.scss */
+/* line 3, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_notification.scss */
 .notif {
   width: 1.25rem !important;
   height: 1.25rem;
@@ -178,13 +231,151 @@ header .user-name {
   position: relative;
 }
 
-/* line 12, D:/Projects/local-repos/hbhub/sass/partials/_notification.scss */
+/* line 12, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_notification.scss */
 .notif p {
   font-size: .75rem;
   position: absolute;
   margin: 0 !important;
   top: .1875rem;
   left: .35rem;
+}
+
+/* line 3, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_cards.scss */
+.hscroll-small-card {
+  padding: 0 calc(2 * 1.5rem);
+  display: grid;
+  grid-template-columns: repeat(5, max-content);
+  overflow-x: auto;
+  list-style-type: none;
+}
+
+/* line 14, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_cards.scss */
+.hscroll-small-card .spacer {
+  width: 1.5rem;
+  height: 120px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+/* line 23, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_cards.scss */
+.nobar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+/* line 28, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_cards.scss */
+.nobar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+/* line 33, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_cards.scss */
+.small-card {
+  width: 200px;
+  height: 120px;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(200, 200, 200, 0.2), 0 3px 10px 0 rgba(200, 200, 200, 0.3);
+  border-radius: .25rem;
+  color: #989898;
+  line-height: 1.8;
+  padding-left: 1.5rem;
+}
+
+/* line 42, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_cards.scss */
+.small-card h3 {
+  margin: 1rem 0 0 0;
+  font-weight: 400;
+}
+
+/* line 6, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_status-card.scss */
+.status-card span {
+  font-weight: 400;
+}
+
+/* line 9, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_status-card.scss */
+.status-card span:nth-of-type(1) {
+  color: #49526d;
+  font-size: 1.25rem;
+}
+
+/* line 14, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_status-card.scss */
+.status-card span:nth-of-type(2) {
+  color: #ff9285;
+  font-size: 1.25rem;
+}
+
+/* line 18, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_status-card.scss */
+.status-card span:nth-of-type(3) {
+  color: #ff9285;
+  font-size: .75rem;
+}
+
+/* line 22, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_status-card.scss */
+.status-card .back-progress {
+  display: inline-block;
+  position: relative;
+  height: 6px;
+  width: 150px;
+  background: #f6f6f6;
+  border-radius: 1rem;
+}
+
+/* line 31, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_status-card.scss */
+.status-card .front-progress {
+  height: 6px;
+  width: calc(150px * 0.75);
+  background: #49526d;
+  border-radius: 1rem;
+}
+
+/* line 38, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_status-card.scss */
+.status-card .dot-progress {
+  height: 6px;
+  width: 6px;
+  background: white;
+  border: 3px solid #49526d;
+  border-radius: 1rem;
+  position: absolute;
+  top: -3px;
+  left: calc(150px * 0.75 - 3px);
+}
+
+/* line 48, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_status-card.scss */
+.status-card p:nth-last-of-type(1) {
+  display: inline-block;
+  margin: 0 0 0 1rem;
+  font-size: 1.5rem;
+}
+
+/* line 2, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_poll-card.scss */
+.poll-card p {
+  margin-top: .25rem;
+  color: #49526d;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: normal;
+}
+
+/* line 9, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_poll-card.scss */
+.poll-card button {
+  margin-top: 1rem;
+  border: #ff9285 solid 0.1rem;
+  background: white;
+  border-radius: .25rem;
+  padding: .5rem 1.5rem;
+  box-shadow: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #ff9285;
+  text-transform: uppercase;
+}
+
+/* line 23, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_poll-card.scss */
+.poll-card button:active {
+  background: #ff9285;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

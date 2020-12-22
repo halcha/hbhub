@@ -1,0 +1,49 @@
+//-class for container of cards for horizontal scrolling in the small card design
+
+.hscroll-small-card {
+    padding: 0 calc(2 * #{$mobile-margin});
+    //--overflow on grid rules
+    display: grid;
+    grid-template-columns: repeat(#{$stats-and-polls-card-count},max-content);
+    overflow-x: auto;
+    //--changes scroll behaviour
+    //scroll-snap-type: x proximity;
+
+    //--remove list style
+    list-style-type: none;
+    .spacer {
+        width: $mobile-margin;
+        height: 120px;
+    }
+  }
+
+//-remove scrollbar but keep functionality
+
+ /* Hide scrollbar for Chrome, Safari and Opera */
+ .nobar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .nobar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  } 
+
+.small-card {
+    width: 200px;
+    height: 120px;
+    background-color: white;
+    box-shadow: $box-shadow;
+    border-radius: .25rem;
+    color: $copy-grey;
+    line-height: 1.8;
+    padding-left: 1.5rem;
+    h3 {
+        margin: 1rem 0 0 0;
+        font-weight: 400;
+    }
+}
+
+
+

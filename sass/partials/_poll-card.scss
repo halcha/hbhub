@@ -1,0 +1,27 @@
+.poll-card {
+    p {
+        margin-top: .25rem;
+        color: $highlight;
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: normal;
+    }
+    button {
+        margin-top: 1rem;
+        border: $secondary solid .1rem;
+        
+        background: white;
+        border-radius: .25rem;
+        padding: .5rem 1.5rem;
+        box-shadow: none;
+        font-family: $sub-heading;
+        font-weight: $sub-heading-weight;
+        font-size: 1rem;
+        color: $secondary;
+        text-transform: uppercase;
+    }
+    button:active {
+        background: $secondary;
+        color: white;
+    }
+}

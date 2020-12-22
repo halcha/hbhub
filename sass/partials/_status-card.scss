@@ -1,0 +1,53 @@
+.status-card {
+    // p {
+    //     margin: 1rem 0 0 0;
+    // }
+
+    span {
+        font-weight: 400;
+    }
+    span:nth-of-type(1) {
+        color: $highlight;
+        font-size: 1.25rem;
+ 
+    }
+    span:nth-of-type(2) {
+        color: $secondary;
+        font-size: 1.25rem;
+    }
+    span:nth-of-type(3) {
+        color: $secondary;
+        font-size: .75rem;
+    }
+    .back-progress {
+        display: inline-block;
+        position: relative;
+        height: 6px;
+        width: 150px;
+        background: $off-white; 
+        border-radius: 1rem; 
+    }
+    
+    .front-progress {
+        height: 6px;
+        width: calc(150px * #{$status-bar-progress});
+        background: $highlight; 
+        border-radius: 1rem; 
+      }
+
+    .dot-progress {
+        height: 6px;
+        width: 6px;
+        background: white;
+        border: 3px solid $highlight;
+        border-radius: 1rem;
+        position: absolute;
+        top:-3px;
+        left: calc(150px * #{$status-bar-progress} - 3px)
+    }
+    p:nth-last-of-type(1) {
+        display: inline-block;
+        margin: 0 0 0 1rem;
+        font-size: 1.5rem;
+    }
+}
