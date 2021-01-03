@@ -1,7 +1,7 @@
 //-class for container of cards for horizontal scrolling in the small card design
 
 .hscroll-small-card {
-    padding: 0 calc(2 * #{$mobile-margin});
+    padding: $mobile-margin;
     //--overflow on grid rules
     display: grid;
     grid-template-columns: repeat(#{$stats-and-polls-card-count},max-content);
@@ -12,7 +12,7 @@
     //--remove list style
     list-style-type: none;
     .spacer {
-        width: $mobile-margin;
+        width: calc(#{$mobile-margin}/2);
         height: 120px;
     }
   }
