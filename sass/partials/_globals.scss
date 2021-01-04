@@ -7,6 +7,7 @@ $charcoal: #323232;
 $highlight: #49526d;
 $opaque-highlight: rgba(73,82,109,.25);
 $secondary: #ff9285;
+$box-shadow: 0 2px 4px 0 rgba(200, 200, 200, 0.2), 0 3px 10px 0 rgba(200, 200, 200, 0.3);
 //-typography
 $font-primary: 'Montserrat', sans-serif;
 $title: 'Montserrat', sans-serif;
@@ -18,16 +19,16 @@ $sub-heading-weight: 400;
 $copy: 'Lato', sans-serif;
 $copy-weight: 300;
 
-//-general variables
+//-measurements
 $header-height: 9rem;
 $mobile-margin: 1.5rem;
-$box-shadow: 0 2px 4px 0 rgba(200, 200, 200, 0.2), 0 3px 10px 0 rgba(200, 200, 200, 0.3);
+$big-card-width: 275px;
 
 //-dynamic variable (ready for data integration)--xxx
 //--change to show percentage of way to next tier
 $status-bar-progress: .75;
-//--the amount of list items in different horizontal scroll sections (can change later to one variable for dynamic system)
-$stats-and-polls-card-count: 5;
+//--the amount of list items in different horizontal scroll sections (looks like smaller values work with a large count. possible fix for dynamic system)
+$stats-and-polls-card-count: 1000;
 
 :root {
   font-size: 12px;
@@ -37,6 +38,7 @@ $stats-and-polls-card-count: 5;
 body {
   font-family: $copy;
   font-weight: $copy-weight;
+  background-color: $off-white;
 }
 
 button {

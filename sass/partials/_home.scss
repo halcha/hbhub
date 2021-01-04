@@ -1,8 +1,15 @@
+body {
+  position: relative;
+}
+
 header {
   height: $header-height;
+  width: 100%;
   padding: 0 $mobile-margin;
   background-image: $teal-primary;
   color: $off-white;
+  position: fixed;
+  z-index: 3;
 
   section {
     display: flex; 
@@ -20,8 +27,9 @@ header {
       background: none;
       border: none;
       flex-grow: 1;
+      //padding-right: 1rem;
       img {
-        float: right;
+        //float: right;
       }
     }
   }
@@ -49,17 +57,23 @@ header {
   // content height = full mobile screen - combined divider height - header height
   height: calc(100vh - .3rem - #{$header-height});
   background-color: $off-white;
+  display: flex;
+  flex-direction: column;
+  padding-top: #{$header-height};
   section {
-    display: flex;
-    align-items: center;
+    //turn these off to make card scroll work with titles in section. will probably remove.
+    //display: flex;
+    //align-items: center;
     border-bottom: $divider-grey solid .1rem;
   }
   .stats-and-polls {
     height: 25%;
+    min-height: 150px;
     width: auto;
   }
   .surveys-quizzes {
     height: 37.5%;
+    min-height: 250px;
     width: auto;
     align-items: baseline;
     //background-color: rgb(44, 116, 54);

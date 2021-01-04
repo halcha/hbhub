@@ -1,7 +1,8 @@
+// Change the size and position of small cards for small mobile screens
 @media only screen and (max-height: 620px) {
     .content {
         section {
-            align-items: baseline;
+            //align-items: baseline;
         }
     }
     .small-card {

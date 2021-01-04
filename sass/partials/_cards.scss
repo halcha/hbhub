@@ -1,6 +1,6 @@
 //-class for container of cards for horizontal scrolling in the small card design
 
-.hscroll-small-card {
+.hscroll {
     padding: $mobile-margin;
     //--overflow on grid rules
     display: grid;
@@ -17,7 +17,7 @@
     }
   }
 
-//-remove scrollbar but keep functionality
+//- the class 'nobar' removes scrollbar but keeps functionality
 
  /* Hide scrollbar for Chrome, Safari and Opera */
  .nobar::-webkit-scrollbar {
@@ -29,10 +29,8 @@
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   } 
-
-.small-card {
-    width: 200px;
-    height: 120px;
+.card {
+    
     background-color: white;
     box-shadow: $box-shadow;
     border-radius: .25rem;
@@ -40,8 +38,22 @@
     line-height: 1.8;
     padding-left: 1.5rem;
     h3 {
-        margin: 1rem 0 0 0;
-        font-weight: 400;
+      margin: 1rem 0 0 0;
+      font-weight: 400;
+  }
+}
+
+.small-card {
+    width: 200px;
+    height: 120px;
+}
+
+.big-card {
+    width: calc(#{$big-card-width} - 1.5rem);
+    height: 180px;
+    position: relative;
+    img {
+      margin-left: -1.5rem;
     }
 }
 
