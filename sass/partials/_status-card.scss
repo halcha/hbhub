@@ -4,7 +4,7 @@
     // }
 
     span {
-        font-weight: 400;
+        font-weight: 500;
     }
     span:nth-of-type(1) {
         color: $highlight;
@@ -45,7 +45,12 @@
         top:-3px;
         left: calc(150px * #{$status-bar-progress} - 3px)
     }
-    p:nth-last-of-type(1) {
+    //text
+    p:nth-of-type(1) {
+        font-family: $copy;
+    }
+    //progress bar
+    p:nth-of-type(2) {
         display: inline-block;
         margin: 0 1rem 0 1rem;
         font-size: 1.5rem;

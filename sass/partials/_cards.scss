@@ -46,6 +46,8 @@
 .small-card {
     width: 200px;
     height: 120px;
+    //base font that changes according to more specific classes
+    font-family: $title;
 }
 
 .big-card {
