@@ -1,0 +1,39 @@
+.reward-card {
+    div {
+        display: flex;
+        align-items: center;
+        p {
+            font-family: $heading;
+            font-weight: $heading-weight;
+            letter-spacing: $card-letter-spacing;
+            color: $highlight;
+            span {
+            color: $secondary;
+            font-size: 1.2rem;
+            }
+        }
+        button {
+            //margin-top: 1rem;
+            border: $secondary solid .1rem;
+            height: 3rem;
+            flex-basis: 6rem;
+            margin: 1rem;
+            background: $secondary;
+            border-radius: .25rem;
+            //padding: .5rem 1.5rem;
+            box-shadow: none;
+            font-family: $heading;
+            font-weight: $heading-weight;
+            font-size: 1rem;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: $card-letter-spacing;
+        }
+        button:active {
+            background: white;
+            color: $secondary;
+        }
+        
+    }
+    
+}
