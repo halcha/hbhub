@@ -78,4 +78,10 @@ header {
     align-items: baseline;
     //background-color: rgb(44, 116, 54);
   }
+} 
+
+.surveys-quizzes {
+  h1{
+      @include big-blue-heading-mobile;
+  }
 }

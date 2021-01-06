@@ -1,0 +1,9 @@
+.details-card {
+    @include card;
+    box-shadow: none;
+    border: $border-grey;
+    width: auto;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+}

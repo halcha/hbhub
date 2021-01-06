@@ -1,4 +1,6 @@
 .poll-card {
+    @include card;
+    @include small-card;
     p {
         margin-top: .25rem;
         color: $highlight;

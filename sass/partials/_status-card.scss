@@ -2,7 +2,8 @@
     // p {
     //     margin: 1rem 0 0 0;
     // }
-
+    @include card;
+    @include small-card;
     span {
         font-weight: 500;
         font-family: $heading;

@@ -1,4 +1,6 @@
 .survey-card {
+    @include card;
+    @include big-card;
     p {
         font-family: $title;
         color: $highlight;

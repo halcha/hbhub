@@ -1,5 +1,95 @@
 .profile-card {
-    height: 220px;
+    @include card;
+    height: 210px;
     width: auto;
     margin:  $mobile-margin;
+    //reset padding-left from card class
+    padding: 0;
+    //reset line height from card class 
+    line-height: unset;
+    section:nth-of-type(1) {
+    h1 {
+        text-transform: uppercase;
+        color: $highlight;
+        font-size: 1.5rem;
+        font-weight: bold;
+        letter-spacing: calc(#{$card-letter-spacing} * 2.5);
+       // text-align: center;
+        padding: 1.5rem 0 .75rem 0;
+    }
+    h1, h2, p {
+        text-align: center;
+    }
+
+    h2 {
+        letter-spacing: calc(#{$card-letter-spacing} * 1.5);
+        font-size: 1rem;
+        font-family: $sub-heading;
+        font-weight: $sub-heading-weight;
+    }
+
+    
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        padding: 1rem 0 1rem 0;
+        margin-left: -.5rem;
+       // border-bottom: $divider-grey solid .1rem;
+    
+        img:nth-of-type(1) {
+            padding: 0 .5rem 0 0;
+        }
+
+        img:nth-of-type(2) {
+            padding: 0 .5rem .25rem .5rem;
+        }
+
+        p {
+            font-weight: $light-copy-weight 
+        }
+    }
+
+}
+    
+    section {
+        //reset the bottom border from the card class
+        border: none;
+    }
+    hr {
+        border: none;
+        border-bottom: $divider-grey solid .1rem;
+        margin: .5rem 1rem 0 1rem;
+    }
+    section:nth-of-type(2) {
+        padding: 0 .5rem;
+        ul {
+            display: flex;
+            //justify-content: center;
+            text-align: center;
+            margin-top: 1rem;
+            li {
+                flex-basis: 90px;
+            }
+            img {
+                height: 30px;
+            }
+            p:nth-of-type(1) {
+                color: $highlight;
+                font-size: 1.25rem;
+                font-family: $sub-heading;
+                font-weight: bold;
+                padding: .5rem 0 .5rem 0;
+            }
+            p:nth-of-type(2) {
+                font-size: .75rem;
+            }
+        }
+    }
+}
+
+.account-details {
+    h1 {
+        @include big-blue-heading-mobile;
+    }
 }

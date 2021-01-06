@@ -8,6 +8,7 @@ $highlight: #49526d;
 $opaque-highlight: rgba(73,82,109,.25);
 $secondary: #ff9285;
 $box-shadow: 0 2px 4px 0 rgba(200, 200, 200, 0.2), 0 3px 10px 0 rgba(200, 200, 200, 0.3);
+$border-grey: #c4c4c4 solid 0.05rem;
 //-typography
 $font-primary: 'Montserrat', sans-serif;
 $title: 'Montserrat', sans-serif;
@@ -18,6 +19,7 @@ $sub-heading: $title;
 $sub-heading-weight: 400;
 $copy: 'Lato', sans-serif;
 $copy-weight: 300;
+$light-copy-weight: 200;
 $card-letter-spacing: .1rem;
 
 //-measurements
@@ -44,4 +46,14 @@ body {
 
 button {
   cursor: pointer;
+}
+
+//mixins
+
+@mixin big-blue-heading-mobile {
+      padding: 1.5rem 0 .5rem $mobile-margin;
+      font-size: 1.5rem;
+      font-family: $font-primary;
+      font-weight: $heading-weight;
+      color: $highlight;
 }

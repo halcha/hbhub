@@ -1,4 +1,6 @@
 .reward-card {
+    @include card;
+    @include big-card;
     div {
         display: flex;
         align-items: center;
