@@ -40,6 +40,8 @@
     h3 {
       margin: 1rem 0 0 0;
       font-weight: 400;
+      @content;
+      @content;
   }
 }
 

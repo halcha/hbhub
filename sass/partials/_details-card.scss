@@ -1,9 +1,38 @@
 .details-card {
-    @include card;
+    @include card {
+        margin: 0;
+        font-weight: unset;
+    };
     box-shadow: none;
     border: $border-grey;
     width: auto;
     min-height: 50px;
     display: flex;
     align-items: center;
+    padding: 0;
+    margin: .5rem 0;
+    div:nth-of-type(1) {
+        flex-basis: 10%;
+        justify-content: center;
+        display: flex;
+    }
+    h2 {
+        flex-basis: 45%;
+    }
+    div:nth-of-type(2) {
+        @include alert-dot;
+        text-align: center;
+    }
+    h3 {
+        flex-basis: 30%;
+        //text-align: center;
+        text-transform: uppercase;
+        padding-left: .5rem;
+        //reset h3 results from 
+    }
+    div:nth-of-type(3) {
+        flex-basis: 5%;
+        justify-content: center;
+        display: flex;
+    }
 }

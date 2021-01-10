@@ -1,8 +1,8 @@
 .profile-card {
     @include card;
-    height: 210px;
+    min-height: 220px;
     width: auto;
-    margin:  $mobile-margin;
+    margin:  $mobile-margin $mobile-margin 0 $mobile-margin;
     //reset padding-left from card class
     padding: 0;
     //reset line height from card class 

@@ -1,10 +1,14 @@
 //notification class (non functional prototype ready for data integration)
 
-.notif {
+@mixin alert-dot {
   width: 1.25rem !important;
   height: 1.25rem;
   border-radius: 1rem;
   background-color: $secondary;
+  color: white;
+}
+.notif {
+  @include alert-dot;
   margin-left: 1rem;
   margin-top: .875rem;
   display: block;
