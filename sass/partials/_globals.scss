@@ -9,6 +9,7 @@ $opaque-highlight: rgba(73,82,109,.25);
 $secondary: #ff9285;
 $box-shadow: 0 2px 4px 0 rgba(200, 200, 200, 0.2), 0 3px 10px 0 rgba(200, 200, 200, 0.3);
 $border-grey: #c4c4c4 solid 0.05rem;
+$border-orange: $secondary solid 0.05rem;
 //$divider is used for breaks between sections. 
 $divider: #ececec solid 0.1rem;
 //-typography
@@ -50,6 +51,16 @@ button {
   cursor: pointer;
 }
 
+// dropdown classes
+
+.dropdown-open {
+  display: block;
+}
+
+.dropdown-close {
+  display: none;
+}
+
 //mixins
 
 @mixin big-blue-heading-mobile {
@@ -58,4 +69,17 @@ button {
       font-family: $font-primary;
       font-weight: $heading-weight;
       color: $highlight;
+}
+
+@mixin inverted-button {
+        background: white;
+        border-radius: .25rem;
+        border: $border-orange;
+        padding: .5rem 1.5rem;
+        box-shadow: none;
+        font-family: $sub-heading;
+        font-weight: $sub-heading-weight;
+        font-size: 1rem;
+        color: $secondary;
+        text-transform: uppercase;
 }
