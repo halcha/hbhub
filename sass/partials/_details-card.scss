@@ -1,38 +1,51 @@
 .details-card {
     @include card {
+        line-height: 1.6;
         margin: 0;
         font-weight: unset;
     };
     box-shadow: none;
     border: $border-grey;
     width: auto;
-    min-height: 50px;
-    display: flex;
-    align-items: center;
-    padding: 0;
+    //min-height: 50px;
+    padding: 1rem .5rem;
     margin: .5rem 0;
-    div:nth-of-type(1) {
-        flex-basis: 10%;
-        justify-content: center;
+    .details-title {
         display: flex;
+        align-items: center;
+        div:nth-of-type(1) {
+            flex-basis: 10%;
+            justify-content: center;
+            display: flex;
+        }
+        h2 {
+            flex-basis: 45%;
+        }
+        div:nth-of-type(2) {
+            @include alert-dot;
+            text-align: center;
+            p {
+                padding-left: .1rem;
+                font-size: .8rem;
+            }
+        }
+        h3 {
+            flex-basis: 30%;
+            //text-align: center;
+            text-transform: uppercase;
+            padding-left: .5rem;
+            //reset h3 results from card class
+        }
+        div:nth-of-type(3) {
+            flex-basis: 5%;
+            justify-content: center;
+            display: flex;
+        }
     }
-    h2 {
-        flex-basis: 45%;
-    }
-    div:nth-of-type(2) {
-        @include alert-dot;
-        text-align: center;
-    }
-    h3 {
-        flex-basis: 30%;
-        //text-align: center;
-        text-transform: uppercase;
-        padding-left: .5rem;
-        //reset h3 results from 
-    }
-    div:nth-of-type(3) {
-        flex-basis: 5%;
-        justify-content: center;
-        display: flex;
+    .details-content {
+        padding: 1rem 2.25rem;
+        border-top: $divider;
+        // margin matches the details-title margin to maintain positioning when using dropdown.
+        margin-top: 1rem;
     }
 }

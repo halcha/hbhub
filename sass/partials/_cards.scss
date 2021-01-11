@@ -37,6 +37,8 @@
     color: $copy-grey;
     line-height: 1.8;
     padding-left: 1.5rem;
+    @content;
+
     h3 {
       margin: 1rem 0 0 0;
       font-weight: 400;
