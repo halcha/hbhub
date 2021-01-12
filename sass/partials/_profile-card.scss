@@ -90,6 +90,6 @@
 
 .account-details {
     h1 {
-        @include big-blue-heading-mobile;
+        @include section-heading;
     }
 }

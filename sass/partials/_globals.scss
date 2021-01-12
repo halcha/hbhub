@@ -63,7 +63,7 @@ button {
 
 //mixins
 
-@mixin big-blue-heading-mobile {
+@mixin section-heading {
       padding: 1.5rem 0 .5rem $mobile-margin;
       font-size: 1.5rem;
       font-family: $font-primary;

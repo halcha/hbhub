@@ -1,0 +1,29 @@
+.faq {
+    ul {
+        padding: $mobile-margin;
+        li {
+            @include card;
+            min-height: 5rem;
+            padding: 0 $mobile-margin;
+            margin: $mobile-margin 0;
+            .faq-title {
+                height: 5rem;
+                display: flex;
+                align-items: center;
+                position: relative;
+                img {
+                    position: absolute;
+                    right: 0;
+                }
+            }
+            .faq-content {
+                border-top: $border-grey;
+                padding: $mobile-margin 0;
+                strong {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    
+}

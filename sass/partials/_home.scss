@@ -82,6 +82,6 @@ header {
 
 .surveys-quizzes {
   h1{
-      @include big-blue-heading-mobile;
+      @include section-heading;
   }
 }

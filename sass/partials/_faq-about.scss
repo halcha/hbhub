@@ -1,0 +1,7 @@
+//screen layout for faq page and about page are the same
+.faq-about {
+    h1 {
+        @include section-heading;
+    }
+
+}

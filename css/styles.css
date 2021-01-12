@@ -273,6 +273,15 @@ header .user-details p:nth-child(2) span {
   margin: 0 1.5rem;
 }
 
+/* line 3, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_faq-about.scss */
+.faq-about h1 {
+  padding: 1.5rem 0 0.5rem 1.5rem;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #49526d;
+}
+
 /* line 3, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_cards.scss */
 .hscroll {
   padding: 1.5rem;
@@ -812,42 +821,50 @@ header .user-details p:nth-child(2) span {
   font-size: .8rem;
 }
 
-/* line 33, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_details-card.scss */
+/* line 34, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_details-card.scss */
+.details-card .details-title .no-dot {
+  background: none !important;
+}
+
+/* line 37, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_details-card.scss */
 .details-card .details-title h3 {
   flex-basis: 30%;
   text-transform: uppercase;
   padding-left: .5rem;
+  font-size: .8rem;
 }
 
-/* line 40, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_details-card.scss */
+/* line 45, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_details-card.scss */
 .details-card .details-title div:nth-of-type(3) {
   flex-basis: 5%;
   justify-content: center;
   display: flex;
 }
 
-/* line 46, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_details-card.scss */
+/* line 51, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_details-card.scss */
 .details-card .details-content {
   padding: 1rem 10%;
   border-top: #ececec solid 0.1rem;
   margin-top: 1rem;
 }
 
-/* line 51, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_details-card.scss */
+/* line 56, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_details-card.scss */
 .details-card .details-content label {
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
   color: #49526d;
 }
 
-/* line 56, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_details-card.scss */
+/* line 61, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_details-card.scss */
 .details-card .details-content input, .details-card .details-content select {
   width: 100%;
   margin-bottom: 1rem;
   color: #989898;
+  padding: .5rem 0;
+  margin-top: .25rem;
 }
 
-/* line 61, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_details-card.scss */
+/* line 68, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_details-card.scss */
 .details-card .details-content [type=submit] {
   background: white;
   border-radius: .25rem;
@@ -864,10 +881,113 @@ header .user-details p:nth-child(2) span {
   margin-bottom: 0;
 }
 
-/* line 68, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_details-card.scss */
+/* line 75, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_details-card.scss */
 .details-card .details-content [type=submit]:active {
   background: #ff9285;
   color: white;
+}
+
+/* line 79, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_details-card.scss */
+.details-card .details-content .pass-container {
+  position: relative;
+}
+
+/* line 81, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_details-card.scss */
+.details-card .details-content .pass-container [type=checkbox] {
+  position: absolute;
+  width: auto;
+  top: .8rem;
+  right: 0;
+}
+
+/* line 2, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_faq-card.scss */
+.faq ul {
+  padding: 1.5rem;
+}
+
+/* line 4, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_faq-card.scss */
+.faq ul li {
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(200, 200, 200, 0.2), 0 3px 10px 0 rgba(200, 200, 200, 0.3);
+  border-radius: .25rem;
+  color: #989898;
+  line-height: 1.8;
+  padding-left: 1.5rem;
+  min-height: 5rem;
+  padding: 0 1.5rem;
+  margin: 1.5rem 0;
+}
+
+/* line 42, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_cards.scss */
+.faq ul li h3 {
+  margin: 1rem 0 0 0;
+  font-weight: 400;
+}
+
+/* line 9, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_faq-card.scss */
+.faq ul li .faq-title {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* line 14, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_faq-card.scss */
+.faq ul li .faq-title img {
+  position: absolute;
+  right: 0;
+}
+
+/* line 19, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_faq-card.scss */
+.faq ul li .faq-content {
+  border-top: #c4c4c4 solid 0.05rem;
+  padding: 1.5rem 0;
+}
+
+/* line 22, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_faq-card.scss */
+.faq ul li .faq-content strong {
+  font-weight: bold;
+}
+
+/* line 1, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_about-card.scss */
+.faq-about {
+  border: none !important;
+}
+
+/* line 3, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_about-card.scss */
+.faq-about article {
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(200, 200, 200, 0.2), 0 3px 10px 0 rgba(200, 200, 200, 0.3);
+  border-radius: .25rem;
+  color: #989898;
+  line-height: 1.8;
+  padding-left: 1.5rem;
+  padding: 1.5rem;
+  margin: 1.5rem;
+}
+
+/* line 42, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_cards.scss */
+.faq-about article h3 {
+  margin: 1rem 0 0 0;
+  font-weight: 400;
+}
+
+/* line 7, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_about-card.scss */
+.faq-about article p {
+  padding-bottom: 2rem;
+}
+
+/* line 10, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_about-card.scss */
+.faq-about article div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 14, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_about-card.scss */
+.faq-about article div img {
+  height: 195px;
+  width: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,8 +1,12 @@
 @import 'partials/globals';
+//screens
 @import 'partials/home';
 @import 'partials/mobile-nav';
 @import 'partials/notification';
 @import 'partials/profile';
+@import 'partials/faq-about';
+
+//cards
 @import 'partials/cards';
 @import 'partials/status-card';
 @import 'partials/poll-card';
@@ -11,4 +15,6 @@
 @import 'partials/reward-card';
 @import 'partials/profile-card';
 @import 'partials/details-card';
+@import 'partials/faq-card';
+@import 'partials/about-card';
 @import 'partials/media/small-mob-h620';
