@@ -16,7 +16,7 @@ header {
   }
  // container for logo and close button
   section:nth-child(1) {
-    padding: 2rem 0 0 0;
+    padding: $mobile-margin 0 0 0;
 // container for logo
     .logo-container {
       flex-grow: 3;

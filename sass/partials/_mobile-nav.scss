@@ -1,11 +1,16 @@
 // flex container for list items in mobile menu
 .mobile-nav {
-  height: 93vh;
-  padding: 3.5vh 5vw;
+  padding: $mobile-margin;
   background-image: $teal-primary;
   font-size: 1.3rem;
   font-family: $heading;
   font-weight: $heading-weight;
+  z-index: 4;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
   a {
     color: $off-white;
     text-decoration: none;
