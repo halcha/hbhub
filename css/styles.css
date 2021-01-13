@@ -995,4 +995,14 @@ header .user-details p:nth-child(2) span {
   width: auto;
 }
 
+/* line 1, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_target-links.scss */
+.content {
+  display: none;
+}
+
+/* line 5, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_target-links.scss */
+.content:target {
+  display: flex;
+}
+
 /*# sourceMappingURL=styles.css.map */

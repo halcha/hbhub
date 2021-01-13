@@ -23,7 +23,7 @@
      <img src="./assets/logo.svg">
     </div>
     <!-- mobile menu close button -->
-     <button onclick="myFunction()" type="button">
+     <button onclick="mobNavButton()" type="button">
       <img src="./assets/menu.svg">
      </button>
     </section>
@@ -40,7 +40,7 @@
       <img src="./assets/logo.svg">
      </div>
      <!-- mobile menu close button -->
-      <button onclick="myFunction()">
+      <button onclick="mobNavButton()">
        <img src="./assets/close.svg">
       </button>
    </div>
@@ -48,7 +48,7 @@
    <!-- <template> -->
     <ul>
       <li>
-       <a onclick="myFunction()" href="#" class="menu-item-content">
+       <a onclick="mobNavButton()" href="#home" class="menu-item-content">
    <!-- container for home icon  -->
          <div>
          <img src="./assets/home.svg">
@@ -119,11 +119,6 @@
     </section>
   </div>
   <script src="./js/dropdown.js"></script>
-  <script>
-    function myFunction() {
-      let x = document.getElementById("nav-container");
-      x.classList.toggle("dropdown-close");
-    }
-  </script>
+  <script src="./js/toggle-mob-nav.js"></script>
  </body>
 </html>

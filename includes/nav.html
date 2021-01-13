@@ -1,0 +1,73 @@
+<nav id="nav-container" class="mobile-nav dropdown-close">
+    <!-- container for logo and close button -->
+    <div>
+        <!-- container for logo  -->
+        <div>
+        <img src="./assets/logo.svg">
+        </div>
+        <!-- mobile menu close button -->
+        <button onclick="mobNavButton()">
+        <img src="./assets/close.svg">
+        </button>
+    </div>
+    <hr>
+    <!-- <template> -->
+    <ul>
+        <li>
+        <a onclick="mobNavButton()" href="#home" class="menu-item-content">
+    <!-- container for home icon  -->
+            <div>
+            <img src="./assets/home.svg">
+            </div>
+            <p>Home</p>
+        </a>
+        </li>
+        <!-- <li> -->
+        <!-- <a onclick="mobNavButton()" href="#" class="menu-item-content"> -->
+    <!-- container for rewards icon  -->
+        <!-- <div> -->
+        <!-- <img src="./assets/rewards.svg"> -->
+        <!-- </div> -->
+        <!-- <p>My Rewards</p> -->
+        <!-- </a> -->
+        <!-- </li> -->
+        <li>
+        <a onclick="mobNavButton()" href="#profile" class="menu-item-content">
+    <!-- container for profile icon  -->
+            <div>
+            <img src="./assets/profile.svg">
+            </div>
+            <p>My Profile</p>
+    <!-- notification icon for integration with data (uncomment template tags to hide)  -->
+            <!-- <template> -->
+            <div class="notif">
+            <p>4</p>
+            </div>
+        <!-- </template> -->
+        </a>
+        </li>
+        <li>
+        <a onclick="dropDown(this)" href="#" class="menu-item-content dropdown">
+    <!-- container for rewards icon  -->
+        <div>
+        <img src="./assets/about.svg">
+        </div>
+        <p>About</p>
+        <img src="./assets/chevron.svg" class="chevron">
+        </a>
+        <ul>
+        <li><a onclick="mobNavButton()" href="#about">What is HB Hub?</a></li>
+        <li><a onclick="mobNavButton()" href="#faq">FAQ</a></li>
+        </ul>
+        </li>
+        <li>
+        <a href="#" class="menu-item-content">
+    <!-- container for logout icon  -->
+        <div>
+        <img src="./assets/logout.svg">
+        </div>
+        <p>Logout</p>
+        </a>
+        </li>
+    </ul>
+</nav>

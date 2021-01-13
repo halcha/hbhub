@@ -1,0 +1,202 @@
+<div class="content" id="profile">
+    <article class="profile-card">
+      <section>
+      <h1>Rebecca Cherote</h1>
+      <h2>Marketing Director</h2>
+      <div>
+      <img src="./assets/map.svg"><p>Sydney, AUS</p><img src="./assets/dot.svg"><p>Joined Mar 2020</p>
+      </div>
+      </section>
+      <hr>
+      <section>
+        <ul>
+          <li>
+            <img src="./assets/chat-bubbles.svg">
+            <p>14</p>
+            <p>Polls & Surveys Completed</p>
+          </li>
+          <!-- <li>
+            <img src="./assets/three-trees.svg">
+            <p>123</p>
+            <p>Community Trees Planted</p>
+          </li> -->
+          <li>
+            <img src="./assets/tree.svg">
+            <p>0</p>
+            <p>Trees Planted</p>
+          </li>
+          <li>
+            <img src="./assets/reward.svg">
+            <p>3</p>
+            <p>Rewards Claimed</p>
+          </li>
+        </ul>
+      </section>
+    </article>
+    <article class="account-details">
+      <section>
+        <h1>Account Details</h1>
+        <ul>
+          <li class="details-card">
+            <div onclick="dropDown(this)" class="details-title">
+              <div>
+                <img src="./assets/contact-details.svg">
+              </div>
+              <h2>Contact Details</h2>
+              <div>
+                <p>1</p>
+              </div>
+              <h3>earn 50hb</h3>
+              <div>
+                <img src="./assets/chevron-grey.svg">
+              </div> 
+            </div>
+            <!-- autocomplete values from this form will be linked to the files storing user details left <input> value as ="" until then -->
+            <form class="details-content dropdown-close" action="#" autocomplete="on">
+              <label for="fname">First name:</label><br>
+              <input type="text" id="fname" name="fname" value="" placeholder="Enter your first name"><br>
+              <label for="lname">Last name:</label><br>
+              <input type="text" id="lname" name="lname" value="" placeholder="Enter your last name"><br>
+              <label for="phone">Phone Number:</label><br>
+              <input type="tel" id="phone" name="phone" value="" placeholder="Enter your mobile phone number" pattern="/^[0-9]{10}$/,"><br>
+              <label for="email">Email:</label><br>
+              <input type="email" id="email" name="email" value="" placeholder="Enter your email address"><br>
+              <label for="postcode">Postcode:</label>
+              <input type="number" id="postcode" name="postcode" placeholder="Enter your postcode" pattern="^(0[289][0-9]{2})|([1-9][0-9]{3})$"><br>
+              <input type="submit" value="Update Details">
+            </form>
+          </li>
+          <li class="details-card">
+            <div onclick="dropDown(this)" class="details-title">
+              <div>
+                <img src="./assets/personal-details.svg">
+              </div>
+              <h2>Personal Details</h2>
+              <div>
+                <p>8</p>
+              </div>
+              <h3>earn 400hb</h3>
+              <div>
+                <img src="./assets/chevron-grey.svg">
+              </div> 
+            </div>
+            <!-- autocomplete values from this form will be linked to the files storing user details left <input> value as ="" until then -->
+            <form class="details-content dropdown-close" action="#" autocomplete="on">
+              <label for="title">Job Title:</label><br>
+              <input type="text" id="jtitle" name="title" value="" placeholder="Enter your Job Title"><br>
+              <label for="industry">Industry</label><br>
+              <select id="industry" name="industry">
+                <option value="finance">Finance</option>
+                <option value="technology">Technology</option>
+                <option value="creative">Creative</option>
+                <option value="politics">Politics</option>
+              </select><br>
+              <label for="house-income-annum">Annual Household Income</label><br>
+              <input type="number" id="house-income-annum" name="house-income-annum" value="" placeholder="Enter a rough estimate of your household annual income" pattern="/^[0-9]{10}$/,"><br>
+              <label for="personal-income-annum">Personal Annual Income</label><br>
+              <input type="number" id="personal-income-annum" name="person-income-annum" value="" placeholder="Enter a rough estimate of your personal annual income" pattern="/^[0-9]{10}$/,"><br>
+              <label for="house-invest-annum">Household Investment Portfolio</label><br>
+              <input type="number" id="house-invest-annum" name="house-invest-annum" value="" placeholder="Enter a rough estimate of your household investment portfolio" pattern="/^[0-9]{10}$/,"><br>
+              <label for="education">Highest Level of Education</label><br>
+              <select id="education" name="education">
+                <option value="technology">Higher School Certificate</option>
+                <option value="diploma">Diploma or Certification</option>
+                <option value="bachelor">Bachelor's Degree</option>
+                <option value="master">Master's Degree</option>
+                <option value="phd">PhD</option>
+                <option value="other">Other</option>
+              </select><br>
+              <label for="parent">Are you a Parent or Guardian?</label><br>
+              <select id="parent" name="parent">
+                <option value="parent">Parent</option>
+                <option value="diploma">Diploma or Certification</option>
+                <option value="bachelor">Bachelor's Degree</option>
+                <option value="master">Master's Degree</option>
+                <option value="phd">PhD</option>
+                <option value="other">Other</option>
+              </select><br>
+              <label for="relationship">Relationship Status</label><br>
+              <select id="education" name="relationship">
+                <option value="married">Married</option>
+                <option value="diploma">Diploma or Certification</option>
+                <option value="bachelor">Bachelor's Degree</option>
+                <option value="master">Master's Degree</option>
+                <option value="phd">PhD</option>
+                <option value="other">Other</option>
+              </select><br>
+              <label for="banks">Which Banks do you use?</label><br>
+              <select id="education" name="banks">
+                <option value="NAB, ANZ">NAB, ANZ</option>
+                <option value="diploma">Diploma or Certification</option>
+                <option value="bachelor">Bachelor's Degree</option>
+                <option value="master">Master's Degree</option>
+                <option value="phd">PhD</option>
+                <option value="other">Other</option>
+              </select><br>
+              <label for="education">Which Superfunds do you use?</label><br>
+              <select id="education" name="education">
+                <option value="technology">Hostplus</option>
+                <option value="diploma">Diploma or Certification</option>
+                <option value="bachelor">Bachelor's Degree</option>
+                <option value="master">Master's Degree</option>
+                <option value="phd">PhD</option>
+                <option value="other">Other</option>
+              </select><br>
+              <input type="submit" value="Update Details">
+            </form>
+          </li>
+          <li class="details-card">
+            <div class="details-title">
+              <div>
+                <img src="./assets/bank-account.svg">
+              </div>
+              <h2>Bank Account</h2>
+            <!-- notification icon for integration with data (uncomment template tags to hide)  -->
+            <!-- <template> -->
+            <div class="no-dot">
+              <p></p>
+            </div>
+          <!-- </template> -->
+              <h3></h3>
+                <div>
+                <img src="./assets/chevron-grey.svg">
+              </div>
+            </div>
+          </li>
+          <li class="details-card">
+            <div onclick="dropDown(this)" class="details-title">
+              <div>
+                <img src="./assets/change-password.svg">
+              </div>
+              <h2>Change Password</h2>
+              <div class="no-dot">
+                <p></p>
+              </div>
+              <h3></h3>
+              <div>
+                <img src="./assets/chevron-grey.svg">
+              </div>
+            </div>
+            <form class="details-content dropdown-close" action="#" autocomplete="on">
+              <label for="password">Current Password:</label><br>
+              <div class="pass-container">
+              <input type="password" value="" id="password" name="password">
+              <input type="checkbox" onclick="showPass(this)">
+              </div>
+              <label for="new-password">New Password:</label><br>
+              <div class="pass-container">
+              <input type="password" value="" id="new-password" name="new-password">
+              <input type="checkbox" onclick="showPass(this)">
+              </div>
+              <label for="c-new-password">Confirm New Password:</label><br>
+              <div class="pass-container">
+              <input type="password" value="" id="c-new-password" name="c-new-password">
+              <input type="checkbox" onclick="showPass(this)">
+              </div>
+              <input type="submit" value="Update Details">
+            </form>
+          </li>   
+        </ul>
+      </section>
+    </article>
+  </div>
