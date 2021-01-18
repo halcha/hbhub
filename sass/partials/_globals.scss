@@ -7,8 +7,10 @@ $charcoal: #323232;
 $highlight: #49526d;
 $opaque-highlight: rgba(73,82,109,.25);
 $secondary: #ff9285;
+$prize-gold: #A78F85;
 $box-shadow: 0 2px 4px 0 rgba(200, 200, 200, 0.2), 0 3px 10px 0 rgba(200, 200, 200, 0.3);
 $border-grey: #c4c4c4 solid 0.05rem;
+$border-light-grey: $divider-grey solid 0.05rem;
 $border-orange: $secondary solid 0.05rem;
 $fade: rgba(0,0,0,0.4);
 //$divider is used for breaks between sections. 
@@ -52,16 +54,6 @@ button {
   cursor: pointer;
 }
 
-// dropdown classes
-
-.dropdown-open {
-  display: block;
-}
-
-.dropdown-close {
-  display: none;
-}
-
 // a class for when a dropdown is clicked included in mobile-nav.scss
 .chevron-invert {
   transform: rotate(180deg)!important;
@@ -76,6 +68,28 @@ button {
       font-family: $font-primary;
       font-weight: $heading-weight;
       color: $highlight;
+      @content;
+      @content;
+      @content;
+      @content;
+}
+
+@mixin orange-button {
+      //margin-top: 1rem;
+      border: $secondary solid .1rem;
+      height: 3rem;
+      flex-basis: 6rem;
+      margin: 1rem;
+      background: $secondary;
+      border-radius: .25rem;
+      //padding: .5rem 1.5rem;
+      box-shadow: none;
+      font-family: $heading;
+      font-weight: $heading-weight;
+      font-size: 1rem;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: $card-letter-spacing;
 }
 
 @mixin inverted-button {

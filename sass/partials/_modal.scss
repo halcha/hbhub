@@ -1,8 +1,110 @@
+
+
 .modal {
   z-index: 4;
   position: absolute;
   top:0;
   left:0;
   right:0;
+  height: auto;
+  min-height: 100vh;
   background-color: $fade;
+  section {
+    @include card;
+    margin: calc(#{$header-height} + #{$mobile-margin}) $mobile-margin;
+    padding: 0;
+  }
+}
+
+// prize modal 
+#prize-draw-modal {
+  // z-index: 4;
+  // position: absolute;
+  // top:0;
+  // left:0;
+  // right:0;
+  // height: 100vh;
+  background-color: $fade;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  section {
+    h1 {
+      @include section-heading;
+      text-align: center;
+      padding: 3rem 0 .5rem 0;
+      text-transform: uppercase;
+    }
+    h2 {
+      text-align: center;
+      color: $prize-gold;
+      margin: 0 $mobile-margin;
+      font-size: 1.2rem;
+    }
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      li {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0;
+        img {
+         max-width: 90px;
+          max-height: 100px;
+          align-self: center;
+        }
+        p {
+          text-align: center;
+          padding: .5rem .25rem;
+          width: 100px;
+          height: 40px;
+          font-size: .8rem;
+        }
+      }
+    } 
+    figure {
+      display: flex;
+      justify-content: center;
+      width: auto;
+      img {
+        max-width: 320px;
+        max-height: 40px;
+        margin: $mobile-margin;
+        object-fit: contain;
+        width: 100%
+      }
+    }
+  }
+}
+
+#today-poll-modal {
+  section {
+  padding: 0 $mobile-margin;
+    h1 {
+      padding: 3rem 0 0 0;
+      font-size: 1.25rem;
+    }
+    h2 {
+      @include section-heading;
+      font-weight: lighter;
+      line-height: 1.2;
+      font-size: 1.3rem;
+      padding: 1rem 0;
+      border-bottom: $border-light-grey;
+    }
+    form {
+      line-height: 3;
+      label{
+        padding: 0 0 0 1rem;
+        color: $highlight;
+        font-size: 1.1rem
+      }
+      input[type=submit] {
+        @include orange-button;
+        margin: 1rem 0 3rem 0;
+      }
+    }
+  }
 }
