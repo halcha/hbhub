@@ -1169,14 +1169,4 @@ header .user-details p:nth-child(2) span {
   margin: 1rem 0 3rem 0;
 }
 
-/* line 1, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_target-links.scss */
-.content {
-  display: none;
-}
-
-/* line 5, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/_target-links.scss */
-.content:target {
-  display: flex;
-}
-
 /*# sourceMappingURL=styles.css.map */
