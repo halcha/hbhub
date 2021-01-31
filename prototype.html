@@ -17,6 +17,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@200;300;400&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"> 
  <link rel="stylesheet" href="./css/styles.css" type="text/css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
  </head>
  <body>
   <!-- the logo, user details and menu button -->
@@ -31,14 +32,36 @@
   <div w3-include-html="./includes/about.html"></div> 
   <!-- the faq page -->
   <div w3-include-html="./includes/faq.html"></div> 
-  <!-- the prize modal -->
-  <div w3-include-html="./includes/prize.html"></div> 
+  <!-- MODALS -->
+  <!-- the prizes available modal -->
+  <div w3-include-html="./includes/modals/prize.html"></div> 
+  <!-- prize entry modal -->
+  <div w3-include-html="./includes/modals/prize-entry.html"></div>
   <!-- todays poll modal -->
-  <div w3-include-html="./includes/todays-poll.html"></div>
+  <div w3-include-html="./includes/modals/todays-poll.html"></div>
+  <!-- claim reward modal -->
+  <div w3-include-html="./includes/modals/claim.html"></div>
+  <!-- claim history modal -->
+  <div w3-include-html="./includes/modals/claim-history.html"></div>
+  <!-- adopt a tree modal -->
+  <div w3-include-html="./includes/modals/adopt-tree.html"></div>
+  <!-- status tiers modal-->
+  <div w3-include-html="./includes/modals/status-tiers.html"></div>
   <script src="./js/dropdown.js"></script>
   <script src="./js/toggle-mob-nav.js"></script>
   <script src="./js/modals.js"></script>
   <script src="./js/pages.js"></script>
+  <script src="./js/plus-minus-buttons.js"></script>
+  <script>
+    var x = 1;
+	$("#sinolo input").attr('value', x);
+    	$("#inc").click(function(){
+	      $("#sinolo input").attr('value', ++x);
+	    });
+	    $("#dec").click(function(){
+	      $("#sinolo input").attr('value', --x);
+        });
+  </script>
   <script>includeHTML();</script>
  </body>
 </html>

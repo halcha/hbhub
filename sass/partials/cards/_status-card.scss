@@ -1,0 +1,160 @@
+.status-card {
+    // p {
+    //     margin: 1rem 0 0 0;
+    // }
+    position: relative;
+    @include card;
+    @include small-card;
+    span {
+        font-weight: 500;
+        font-family: $heading;
+    }
+    span:nth-of-type(1), span:nth-of-type(1) {
+        color: $highlight;
+        font-size: 1.25rem;
+ 
+    }
+    span:nth-of-type(3) {
+        color: $rookie-bronze;
+        font-size: 1.25rem;
+    }
+    span:nth-of-type(4) {
+        color: $rookie-bronze;
+        font-size: .75rem;
+    }
+    .back-progress {
+        display: inline-block;
+        position: relative;
+        height: 6px;
+        width: 150px;
+        background: $off-white; 
+        border-radius: 1rem; 
+    }
+    
+    .front-progress {
+        height: 6px;
+        width: calc(150px * #{$status-bar-progress});
+        background: $highlight; 
+        border-radius: 1rem; 
+      }
+
+    .dot-progress {
+        height: 6px;
+        width: 6px;
+        background: white;
+        border: 3px solid $highlight;
+        border-radius: 1rem;
+        position: absolute;
+        top:-3px;
+        left: calc(150px * #{$status-bar-progress} - 3px)
+    }
+    //text
+    p:nth-of-type(1) {
+        font-family: $copy;
+    }
+    //progress bar
+    p:nth-of-type(2) {
+        display: inline-block;
+        margin: 0 1rem 0 1rem;
+        font-size: 1rem;
+    }
+
+    #trophy-icon {
+        width: 1.5rem;
+        height: 2rem;
+        background-image: url("/assets/rookie-trophy.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 1rem;
+        right: 1.5rem;
+    }
+}
+
+.rookie-cols {
+    span:nth-of-type(1), span:nth-of-type(2) {
+        color: $rookie-bronze;
+    }
+
+    span:nth-of-type(3), span:nth-of-type(4) {
+        color: $pro-silver;
+    }
+
+    .front-progress {
+        background: $rookie-bronze;
+    }
+
+    .dot-progress {
+        border-color: $rookie-bronze;
+    }
+
+    #trophy-icon {
+        background-image: url("/assets/pro-trophy.svg");
+    }
+}
+
+.pro-cols {
+    span:nth-of-type(1), span:nth-of-type(2) {
+        color: $pro-silver;
+    }
+
+    span:nth-of-type(3), span:nth-of-type(4) {
+        color: $champion-gold;
+    }
+
+    .front-progress {
+        background: $pro-silver;
+    }
+
+    .dot-progress {
+        border-color: $pro-silver;
+    }
+
+    #trophy-icon {
+        background-image: url("/assets/champ-trophy.svg");
+    }
+}
+
+.champ-cols {
+    span:nth-of-type(1), span:nth-of-type(2) {
+        color: $champion-gold;
+    }
+
+    span:nth-of-type(3), span:nth-of-type(4) {
+        color: $all-star-black;
+    }
+
+    .front-progress {
+        background: $champion-gold;
+    }
+
+    .dot-progress {
+        border-color: $champion-gold;
+    }
+
+    #trophy-icon {
+        background-image: url("/assets/all-star-trophy.svg");
+    }
+}
+
+.star-cols {
+    span:nth-of-type(1), span:nth-of-type(2) {
+        color: $all-star-black;
+    }
+
+    span:nth-of-type(3), span:nth-of-type(4) {
+        color: $all-star-black;
+    }
+
+    .front-progress {
+        background: $all-star-black;
+    }
+
+    .dot-progress {
+        border-color: $all-star-black;
+    }
+
+    #trophy-icon {
+        background-image: url("/assets/all-star-trophy.svg");
+    }
+}

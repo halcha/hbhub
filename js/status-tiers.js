@@ -1,0 +1,1 @@
+// if user-points is between a certain value, change the status tier class to the rookie - all star classes. also change the front progress bar width to have the percentage offset to the domain of that tier ie 4000-8000hb.

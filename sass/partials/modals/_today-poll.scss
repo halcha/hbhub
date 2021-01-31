@@ -1,0 +1,31 @@
+//poll modal
+
+#today-poll-modal {
+  section {
+  padding: 0 $mobile-margin;
+    h1 {
+      padding: 3rem 0 0 0;
+      font-size: 1.25rem;
+    }
+    h2 {
+      @include section-heading;
+      font-weight: lighter;
+      line-height: 1.2;
+      font-size: 1.3rem;
+      padding: 1rem 0;
+      border-bottom: $border-light-grey;
+    }
+    form {
+      line-height: 3rem;
+      label{
+        padding: 0 0 0 1rem;
+        color: $highlight;
+        font-size: 1.1rem
+      }
+      input[type=submit] {
+        @include orange-button;
+        margin: 1rem 0 3rem 0;
+      }
+    }
+  }
+}

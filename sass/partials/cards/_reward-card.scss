@@ -15,21 +15,7 @@
             }
         }
         button {
-            //margin-top: 1rem;
-            border: $secondary solid .1rem;
-            height: 3rem;
-            flex-basis: 6rem;
-            margin: 1rem;
-            background: $secondary;
-            border-radius: .25rem;
-            //padding: .5rem 1.5rem;
-            box-shadow: none;
-            font-family: $heading;
-            font-weight: $heading-weight;
-            font-size: 1rem;
-            color: white;
-            text-transform: uppercase;
-            letter-spacing: $card-letter-spacing;
+            @include orange-button;
         }
         button:active {
             background: white;

@@ -1,0 +1,30 @@
+// status tiers modal 
+
+#status-tiers-modal {
+  section {
+    padding: 0 4rem $mobile-margin 4rem;
+    h1 {
+      @include modal-heading;
+    }
+    li {
+      display: flex;
+      //align-items: center;
+      figure {
+        padding: 0 5rem 1rem 0;
+        img {
+          width: 100px;
+          height: 100px;
+        }
+        figcaption {
+          @include modal-heading;
+          font-size: 1rem;
+          padding: 0
+        }
+    }
+      ul {
+        font-size: .8rem;
+        padding-top: 1rem;
+      }
+    }
+  }
+}

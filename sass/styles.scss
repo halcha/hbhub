@@ -1,25 +1,29 @@
 @import 'partials/globals';
-@import 'partials/js-classes';
 //screens
-@import 'partials/home';
-@import 'partials/mobile-nav';
-@import 'partials/profile';
-@import 'partials/faq-about';
+@import 'partials/screens/home';
+@import 'partials/screens/mobile-nav';
+@import 'partials/screens/profile';
+@import 'partials/screens/faq-about';
 
 //cards
-@import 'partials/cards';
-@import 'partials/status-card';
-@import 'partials/poll-card';
-@import 'partials/prize-draw-card';
-@import 'partials/survey-card';
-@import 'partials/reward-card';
-@import 'partials/profile-card';
-@import 'partials/details-card';
-@import 'partials/faq-card';
-@import 'partials/about-card';
+@import 'partials/cards/cards';
+@import 'partials/cards/status-card';
+@import 'partials/cards/poll-card';
+@import 'partials/cards/prize-draw-card';
+@import 'partials/cards/survey-card';
+@import 'partials/cards/reward-card';
+@import 'partials/cards/profile-card';
+@import 'partials/cards/details-card';
+@import 'partials/cards/faq-card';
+@import 'partials/cards/about-card';
 
 //modals 
-@import 'partials/modal';
+@import 'partials/modals/modal';
+@import 'partials/modals/prize-draw';
+@import 'partials/modals/prize-entry';
+@import 'partials/modals/today-poll';
+@import 'partials/modals/status-tiers';
+@import 'partials/modals/adopt-tree';
 
 //media queries
 @import 'partials/media/small-mob-h620';
