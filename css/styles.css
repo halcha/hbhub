@@ -658,6 +658,7 @@ header .user-details p:nth-child(2) span {
   width: calc(275px - 1.5rem);
   height: 180px;
   position: relative;
+  position: relative;
 }
 
 /* line 42, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/cards/_cards.scss */
@@ -673,27 +674,29 @@ header .user-details p:nth-child(2) span {
   width: 275px;
 }
 
-/* line 4, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/cards/_survey-card.scss */
+/* line 5, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/cards/_survey-card.scss */
 .survey-card p {
   font-family: "Montserrat", sans-serif;
   color: #49526d;
   padding: 0 0 .25rem 0;
 }
 
-/* line 8, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/cards/_survey-card.scss */
+/* line 9, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/cards/_survey-card.scss */
 .survey-card p span {
   text-transform: uppercase;
   font-weight: 500;
 }
 
-/* line 13, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/cards/_survey-card.scss */
+/* line 14, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/cards/_survey-card.scss */
 .survey-card div {
   margin-left: -1.5rem;
   width: 275px;
   border-bottom: #ececec solid 0.1rem;
+  position: absolute;
+  bottom: 3.25rem;
 }
 
-/* line 18, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/cards/_survey-card.scss */
+/* line 21, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/cards/_survey-card.scss */
 .survey-card a {
   color: #ff9285;
   text-transform: uppercase;
@@ -703,9 +706,11 @@ header .user-details p:nth-child(2) span {
   padding: .25rem 6rem 0 0;
 }
 
-/* line 26, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/cards/_survey-card.scss */
+/* line 29, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/cards/_survey-card.scss */
 .survey-card p:nth-of-type(2) {
   padding-top: .25rem;
+  position: absolute;
+  bottom: .5rem;
 }
 
 /* line 1, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/cards/_reward-card.scss */
