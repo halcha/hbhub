@@ -15,11 +15,11 @@
  
     }
     span:nth-of-type(3) {
-        color: $rookie-bronze;
+        color: $rookie-col;
         font-size: 1.25rem;
     }
     span:nth-of-type(4) {
-        color: $rookie-bronze;
+        color: $rookie-col;
         font-size: .75rem;
     }
     .back-progress {
@@ -73,19 +73,19 @@
 
 .rookie-cols {
     span:nth-of-type(1), span:nth-of-type(2) {
-        color: $rookie-bronze;
+        color: $rookie-col;
     }
 
     span:nth-of-type(3), span:nth-of-type(4) {
-        color: $pro-silver;
+        color: $pro-col;
     }
 
     .front-progress {
-        background: $rookie-bronze;
+        background: $rookie-col;
     }
 
     .dot-progress {
-        border-color: $rookie-bronze;
+        border-color: $rookie-col;
     }
 
     #trophy-icon {
@@ -95,19 +95,19 @@
 
 .pro-cols {
     span:nth-of-type(1), span:nth-of-type(2) {
-        color: $pro-silver;
+        color: $pro-col;
     }
 
     span:nth-of-type(3), span:nth-of-type(4) {
-        color: $champion-gold;
+        color: $champion-col;
     }
 
     .front-progress {
-        background: $pro-silver;
+        background: $pro-col;
     }
 
     .dot-progress {
-        border-color: $pro-silver;
+        border-color: $pro-col;
     }
 
     #trophy-icon {
@@ -117,19 +117,19 @@
 
 .champ-cols {
     span:nth-of-type(1), span:nth-of-type(2) {
-        color: $champion-gold;
+        color: $champion-col;
     }
 
     span:nth-of-type(3), span:nth-of-type(4) {
-        color: $all-star-black;
+        color: $all-star-col;
     }
 
     .front-progress {
-        background: $champion-gold;
+        background: $champion-col;
     }
 
     .dot-progress {
-        border-color: $champion-gold;
+        border-color: $champion-col;
     }
 
     #trophy-icon {
@@ -139,19 +139,19 @@
 
 .star-cols {
     span:nth-of-type(1), span:nth-of-type(2) {
-        color: $all-star-black;
+        color: $all-star-col;
     }
 
     span:nth-of-type(3), span:nth-of-type(4) {
-        color: $all-star-black;
+        color: $all-star-col;
     }
 
     .front-progress {
-        background: $all-star-black;
+        background: $all-star-col;
     }
 
     .dot-progress {
-        border-color: $all-star-black;
+        border-color: $all-star-col;
     }
 
     #trophy-icon {

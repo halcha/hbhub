@@ -16,10 +16,10 @@ $border-orange: $secondary solid 0.05rem;
 $fade: rgba(0,0,0,0.4);
 
 //status colours
-$rookie-bronze: #A78F85;
-$pro-silver: #C4C4C4;
-$champion-gold: #BFB182;
-$all-star-black: #323232;
+$rookie-col: #C4C4C4;
+$pro-col: #FF9285;
+$champion-col: #2C989B;
+$all-star-col: #49526D;
 
 //$divider is used for breaks between sections. 
 $divider: #ececec solid 0.1rem;
@@ -156,4 +156,14 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+// remove underlines on a tag
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
 }

@@ -16,24 +16,24 @@
           <div id="trophy-icon"></div>
         </li>
         <li class="spacer"></li>
-        <li class="poll-card">
+        <li class="poll-card" onclick="showModals(this)" mid="today-poll-modal">
           <h3>Today's Poll</h3>
           <p>What's the best drink to have with steak?</p>
-          <button onclick="showModals(this)" mid="today-poll-modal" type="button">Start Now</a>
+          <button type="button">Start Now</a>
         </li>
         <li class="spacer"></li>
-        <li class="prize-draw-card">
+        <li class="prize-draw-card" onclick="showModals(this)" mid="prize-draw-modal">
           <h3>Quarterly Prize Draw</h3>
           <p>3 Entries</p>
           <p>18hr 20min 22sec till end</p>
-          <button onclick="showModals(this)" mid="prize-draw-modal" type="button">View Prizes</a>
+          <button type="button">View Prizes</a>
         </li>
         <li class="spacer"></li>
-        <li class="prize-draw-card">
+        <li class="prize-draw-card" onclick="showModals(this)" mid="claim-hist-modal">
           <h3>Claims History</h3>
           <p>2 Claims</p>
           <p>View your past reward claims</p>
-          <button onclick="showModals(this)" mid="claim-hist-modal" type="button">View Claims</a>
+          <button  type="button">View Claims</a>
         </li>
         <li class="spacer"></li>
         <li class="spacer"></li>
@@ -42,27 +42,27 @@
     <section class="surveys-quizzes">
       <h1>Claim your Rewards</h1>
       <ul class="hscroll nobar">
-        <li class="reward-card">
+        <li class="reward-card" onclick="showModals(this)" mid="adopt-tree-modal" >
           <img src="./assets/adopt-tree.png">
           <div>
             <p>Adopt a Tree in our Forest<br><span>150HB</span></p>
-            <button onclick="showModals(this)" mid="adopt-tree-modal" type="button">Claim</button>
+            <button type="button">Claim</button>
           </div>
         </li>
         <li class="spacer"></li>
-        <li class="reward-card">
+        <li onclick="showModals(this)" mid="prize-entry-modal" class="reward-card">
           <img src="./assets/prize-draw.png">
           <div>
             <p>Get a Prize Draw Entry<br><span>200HB</span></p>
-            <button onclick="showModals(this)" mid="prize-entry-modal" type="button">Claim</button>
+            <button type="button">Claim</button>
           </div>
         </li>
         <li class="spacer"></li>
-        <li class="reward-card">
+        <li onclick="showModals(this)" mid="claim-modal" class="reward-card">
           <img src="./assets/convert-hb-points.png">
           <div>
             <p>Convert Points to Gift Cards<br><span>2000HB</span></p>
-            <button onclick="showModals(this)" mid="claim-modal" type="button">Claim</button>
+            <button type="button">Claim</button>
           </div>
         </li>
         <li class="spacer"></li>
@@ -70,45 +70,53 @@
       </ul>
     </section>
     <section class="surveys-quizzes">
-      <h1>Category 1</h1>
-      <ul class="hscroll nobar">
+      <h1>Surveys</h1>
+      <ul class="hscroll nobar">  
         <li class="survey-card">
-          <img src="./assets/how-active.png">
-          <!-- put text inside <span></span> to get an alternate font -->
-          <p>How active are you?</p>
-          <!-- divider div below -->
-          <div></div>
-          <p><a href="https://survey.hunterandbligh.com.au/type/*|CAMPAIGN_UID|*/*|UID|*/dgjMg3WT/d-1">earn 1200hb</a> 12 min</p>
+          <a href="https://survey.hunterandbligh.com.au/type/*|CAMPAIGN_UID|*/*|UID|*/dgjMg3WT/d-1">
+            <img src="./assets/how-active.png">
+            <!-- put text inside <span></span> to get an alternate font -->
+            <p>How active are you?</p>
+            <!-- divider div below -->
+            <div></div>
+            <p><span>earn 1200hb</span> 12 min</p>
+          </a>
         </li>
         <li class="spacer"></li>
         <li class="survey-card">
+          <a href="https://survey.hunterandbligh.com.au/type/*|CAMPAIGN_UID|*/*|UID|*/I1zJebWH/d-1">
           <img src="./assets/covid-change.png">
           <p>How has COVID-19 Changed your life?</p>
           <!-- divider div below -->
           <div></div>
-          <p><a href="https://survey.hunterandbligh.com.au/type/*|CAMPAIGN_UID|*/*|UID|*/I1zJebWH/d-1">earn 2000hb</a> 20 min</p>
+          <p><span href="">earn 2000hb</span> 20 min</p>
+          </a>
         </li>
         <li class="spacer"></li>
         <li class="spacer"></li>
       </ul>
     </section>
     <section class="surveys-quizzes">
-      <h1>Category 2</h1>
+      <h1>Quizzes of the Week</h1>
       <ul class="hscroll nobar">
         <li class="survey-card">
-          <img src="./assets/which-friends.png">
-          <p>Which friends character are you?</p>
-          <!-- divider div below -->
-          <div></div>
-          <p><a href="https://survey.hunterandbligh.com.au/type/*|CAMPAIGN_UID|*/*|UID|*/DEjrMseP/d-1">earn 600hb</a> 6 min</p>
+          <a href="https://survey.hunterandbligh.com.au/type/*|CAMPAIGN_UID|*/*|UID|*/DEjrMseP/d-1">
+            <img src="./assets/which-friends.png">
+            <p>Which friends character are you?</p>
+            <!-- divider div below -->
+            <div></div>
+            <p><span>earn 600hb</span> 6 min</p>
+          </a>
         </li>
         <li class="spacer"></li>
         <li class="survey-card">
-          <img src="./assets/traveller-type.png">
-          <p>What type of traveller are you?</p>
-          <!-- divider div below -->
-          <div></div>
-          <p><a href="https://survey.hunterandbligh.com.au/type/*|CAMPAIGN_UID|*/*|UID|*/X48FyzeA/d-1">earn 1000hb</a> 10 min</p>
+          <a href="https://survey.hunterandbligh.com.au/type/*|CAMPAIGN_UID|*/*|UID|*/X48FyzeA/d-1">
+            <img src="./assets/traveller-type.png">
+            <p>What type of traveller are you?</p>
+            <!-- divider div below -->
+            <div></div>
+            <p><span>earn 1000hb</span> 10 min</p>
+          </a>
         </li>
         <li class="spacer"></li>
         <li class="spacer"></li>
