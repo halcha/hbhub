@@ -30,6 +30,24 @@
         background: $off-white; 
         border-radius: 1rem; 
     }
+    
+    .front-progress {
+        height: 6px;
+        width: calc(150px * #{$status-bar-progress});
+        background: $highlight; 
+        border-radius: 1rem; 
+      }
+
+    .dot-progress {
+        height: 6px;
+        width: 6px;
+        background: white;
+        border: 3px solid $highlight;
+        border-radius: 1rem;
+        position: absolute;
+        top:-3px;
+        left: calc(150px * #{$status-bar-progress} - 3px)
+    }
     //text
     p:nth-of-type(1) {
         font-family: $copy;
@@ -48,19 +66,8 @@
         background-size: contain;
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 3rem;
-        right: 1rem;
-    }
-
-    button {
-        margin-top: .25rem;
-        border: $secondary solid .1rem;
-        
-        @include inverted-button;
-    }
-    button:active {
-        background: $secondary;
-        color: white;
+        bottom: 1rem;
+        right: 1.5rem;
     }
 }
 
@@ -71,6 +78,14 @@
 
     span:nth-of-type(3), span:nth-of-type(4) {
         color: $pro-col;
+    }
+
+    .front-progress {
+        background: $rookie-col;
+    }
+
+    .dot-progress {
+        border-color: $rookie-col;
     }
 
     #trophy-icon {
@@ -87,6 +102,14 @@
         color: $champion-col;
     }
 
+    .front-progress {
+        background: $pro-col;
+    }
+
+    .dot-progress {
+        border-color: $pro-col;
+    }
+
     #trophy-icon {
         background-image: url("/assets/champ-trophy.svg");
     }
@@ -101,6 +124,14 @@
         color: $all-star-col;
     }
 
+    .front-progress {
+        background: $champion-col;
+    }
+
+    .dot-progress {
+        border-color: $champion-col;
+    }
+
     #trophy-icon {
         background-image: url("/assets/all-star-trophy.svg");
     }
@@ -113,6 +144,14 @@
 
     span:nth-of-type(3), span:nth-of-type(4) {
         color: $all-star-col;
+    }
+
+    .front-progress {
+        background: $all-star-col;
+    }
+
+    .dot-progress {
+        border-color: $all-star-col;
     }
 
     #trophy-icon {

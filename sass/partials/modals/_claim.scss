@@ -1,0 +1,58 @@
+#claim-hist-modal {
+    text-align: center;
+    section {
+        h1{
+            @include modal-heading;
+        }
+        table{
+            font-size: .9rem;
+            width: 100%;
+            //margin: 0 .5rem;
+            tr {
+                border-bottom: $border-grey;
+                th, td {
+                    padding: 1rem .25rem;  
+                }
+                th {
+                    text-transform: uppercase;
+                    font-family: $title;
+                    color: $secondary;
+                    
+                    text-align: left;
+                }
+            }
+        }
+        button {
+            @include inverted-button;
+            margin: 1rem 0;
+            padding: .5rem 8rem;
+        }    
+    }                               
+}
+    
+    .alt-modal-look {
+        padding-bottom: 10vh;
+        section {
+            height: calc(95vh - #{$header-height});
+            position: fixed;
+            overflow-y: scroll;
+            .modal-buttons {
+                position: fixed;
+                bottom: 2rem;
+                //left: 2.25rem;
+                background-color: white;
+                width: calc(100% - 2 * #{$mobile-margin});
+                border-radius: .25rem;
+            }
+        }
+        /* Hide scrollbar for IE, Edge and Firefox */
+        section {
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none;  /* IE and Edge */
+        }
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        section::-webkit-scrollbar {
+            display: none;
+        }
+
+}

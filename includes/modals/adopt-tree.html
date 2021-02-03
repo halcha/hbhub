@@ -1,6 +1,25 @@
-<div id="adopt-tree-modal" class="modal no-display" onclick="showModals(this)" mid="adopt-tree-modal">
+<div id="adopt-tree-modal" class="modal no-display">
     <section>
-        <h1>adopt a tree</h1>
-        <h2>hello</h2>
+        <h1>redeem prize entry</h1>
+        <figure>
+        <img src="https://via.placeholder.com/250x170">
+        </figure>
+        <form>
+            <div id="sinolo">
+            <label for="gift-card-quantity">Quantity:</label>
+            <button id="dec" type="button">-</button>
+            <button id="inc" type="button">+</button>
+            <input type="number" id="gift-card-quantity" name="gift-crad-quantity" value="1">
+            </div>
+            <div>
+                <p>available balance: <span>HB</span><span>2000</span></p>
+                <p>total cost: <span>HB</span><span>2000</span></p>
+                <p>new balance: <span>HB</span><span>0</span></p>
+            </div>
+            <div>
+                <input type="submit" value="Redeem">
+                <button type="button" onclick="showModals(this)" mid="adopt-tree-modal">Cancel</button>
+            </div>
+        </form>
     </section>
 </div>  

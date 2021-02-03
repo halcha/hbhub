@@ -1,5 +1,5 @@
 <!-- onclick="showModals(this)" -->
-<div id="prize-entry-modal" class="modal no-display"  onclick="showModals(this)" mid="prize-entry-modal">
+<div id="prize-entry-modal" class="modal no-display">
     <section>
         <h1>redeem prize entry</h1>
         <ul>
@@ -15,7 +15,7 @@
             <label for="gift-card-quantity">Quantity:</label>
             <button id="dec" type="button">-</button>
             <button id="inc" type="button">+</button>
-            <input type="number" id="gift-card-quantity" name="gift-crad-quantity">
+            <input type="number" id="gift-card-quantity" name="gift-crad-quantity" value="1">
             </div>
             <div>
                 <p>available balance: <span>2000</span><span>HB</span></p>
@@ -24,7 +24,7 @@
             </div>
             <div>
                 <input type="submit" value="Redeem">
-                <button type="button">Cancel</button>
+                <button type="button" onclick="showModals(this)" mid="prize-entry-modal">Cancel</button>
             </div>
         </form>
     </section>
