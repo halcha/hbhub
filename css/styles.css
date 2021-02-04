@@ -1551,16 +1551,23 @@ header .user-details p:nth-child(2) span {
   text-align: center;
   padding: 3rem 0 .5rem 0;
   text-transform: uppercase;
-  padding-bottom: 3rem;
 }
 
 /* line 9, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
+#adopt-tree-modal section h2 {
+  color: #A78F85;
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 1rem;
+}
+
+/* line 15, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
 #adopt-tree-modal section figure {
   display: flex;
   justify-content: center;
 }
 
-/* line 14, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
+/* line 20, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
 #adopt-tree-modal section form label, #adopt-tree-modal section form p {
   padding: 1.5rem 0 0.5rem 1.5rem;
   font-size: 1.5rem;
@@ -1575,17 +1582,17 @@ header .user-details p:nth-child(2) span {
   text-align: inherit;
 }
 
-/* line 20, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
+/* line 26, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
 #adopt-tree-modal section form div {
   padding: 1.5rem;
 }
 
-/* line 23, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
+/* line 29, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
 #adopt-tree-modal section form div:nth-of-type(1) {
   border-bottom: #ececec solid 0.05rem;
 }
 
-/* line 25, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
+/* line 31, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
 #adopt-tree-modal section form div:nth-of-type(1) input {
   border: 0;
   padding-left: 5rem;
@@ -1594,12 +1601,12 @@ header .user-details p:nth-child(2) span {
   color: #6a6a6a;
 }
 
-/* line 32, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
+/* line 38, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
 #adopt-tree-modal section form div:nth-of-type(1) input:focus {
   outline: none;
 }
 
-/* line 35, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
+/* line 41, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
 #adopt-tree-modal section form div:nth-of-type(1) button {
   background: white;
   border-radius: .25rem;
@@ -1616,29 +1623,29 @@ header .user-details p:nth-child(2) span {
   font-size: 1.5rem;
 }
 
-/* line 42, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
+/* line 48, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
 #adopt-tree-modal section form div:nth-of-type(1) button:active {
   background: #ff9285;
   color: white;
 }
 
-/* line 47, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
+/* line 53, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
 #adopt-tree-modal section form div:nth-of-type(1) button:nth-of-type(1) {
   padding: .4rem 1.1rem .6rem 1.1rem;
   margin: 0 1rem 0 2.25rem;
 }
 
-/* line 55, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
+/* line 61, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
 #adopt-tree-modal section form div:nth-of-type(2) {
   border-bottom: #ececec solid 0.05rem;
 }
 
-/* line 57, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
+/* line 63, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
 #adopt-tree-modal section form div:nth-of-type(2) span {
   float: right;
 }
 
-/* line 62, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
+/* line 68, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
 #adopt-tree-modal section form input[type="submit"] {
   border: #ff9285 solid 0.1rem;
   height: 3rem;
@@ -1657,13 +1664,13 @@ header .user-details p:nth-child(2) span {
   margin: 0;
 }
 
-/* line 68, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
+/* line 74, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
 #adopt-tree-modal section form div:nth-of-type(3) {
   display: flex;
   flex-direction: column;
 }
 
-/* line 71, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
+/* line 77, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-tree.scss */
 #adopt-tree-modal section form div:nth-of-type(3) button {
   background: white;
   border-radius: .25rem;
