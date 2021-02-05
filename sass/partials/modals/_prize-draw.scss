@@ -55,8 +55,12 @@
       @include orange-button;
       text-align: center;
       margin: 1rem 6rem;
-      flex-basis: 4rem
+      flex-basis: 2.5rem
       
+    }
+
+    button:nth-of-type(2) {
+      @include inverted-button;
     }
   }
   section > p {

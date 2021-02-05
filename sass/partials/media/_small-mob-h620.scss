@@ -28,6 +28,9 @@
 //     }
 // }
 @media only screen and (max-width: 350px) {
+    section {
+        min-width: auto !important;
+    }
     #status-tiers-modal {
         section {
             padding: 0 2rem 1.5rem;

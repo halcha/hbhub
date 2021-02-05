@@ -6,4 +6,3 @@ var x = 1;
 	    $("#dec").click(function(){
 	      $("#sinolo input").attr('value', --x);
         });
-        

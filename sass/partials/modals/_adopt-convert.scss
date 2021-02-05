@@ -1,4 +1,4 @@
-#adopt-tree-modal {
+.adopt-and-convert-modal {
     section {        
         padding: 0 $mobile-margin;
     
@@ -22,18 +22,27 @@
                 font-size: 1rem;
                 padding: 0;
                 text-align: inherit;
+                
             }
             div {
-                padding: $mobile-margin;
+                padding: $mobile-margin 0;
             }
             div:nth-of-type(1) {
                 border-bottom: $border-light-grey;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                //padding: $mobile-margin 0;
+                label {
+                    margin-right: auto;
+                }
                 input {
                     border: 0;
-                    padding-left: 5rem;
+                    //padding-left: 5rem;
                     width: 3rem;
                     font-size: 1.25rem;
                     color: $copy-grey;
+                    margin-left: auto;
                 }
                 input:focus {
                     outline: none;
@@ -52,10 +61,8 @@
 
                 button:nth-of-type(1) {
                     padding: .4rem 1.1rem .6rem 1.1rem;
-                    margin: 0 1rem 0 2.25rem;
-                }
-
-                
+                    margin-right: $mobile-margin;
+                }            
             }
             
             div:nth-of-type(2) {
@@ -80,6 +87,20 @@
                     margin: 1rem 0;
                 }
             }
+        }
+    }
+}
+
+#convert-points-modal {
+    img {
+        width: 275px;
+        height: 155px;
+    }
+    form{
+    div > span {
+            font-size: 1.25rem;
+            padding-left: .5rem;
+            font-weight: bolder
         }
     }
 }

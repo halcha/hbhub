@@ -13,6 +13,7 @@
     @include card;
     margin: calc(#{$header-height} + #{$mobile-margin}) $mobile-margin 0 $mobile-margin;
     padding: 0;
+    min-width: $min-modal-width;
   }
   * {
     //pointer-events: none;
