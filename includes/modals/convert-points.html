@@ -18,8 +18,21 @@
                 <p>new balance: <span>HB</span><span>0</span></p>
             </div>
             <div>
-                <input type="submit" value="Redeem">
+                <button type="button" onclick="showConfirm(this)" mid="confirm-convert">Redeem</button>
                 <button type="button" onclick="showModals(this)" mid="convert-points-modal">Cancel</button>
+            </div>
+            <div id="confirm-convert" class="confirm-purchase modal no-display">
+                <section>
+                    <figure>
+                        <img src="./assets/logo-green.svg">
+                    </figure>
+                    <h1>Convert your Points</h1>
+                    <p>Are you sure you’d like to convert <span>2,000HB</span> into <span>$20 credit</span>?</p>
+                    <div>
+                    <input type="submit" value="Yes">
+                    <button type="button" onclick="showConfirm(this)" mid="confirm-convert">No</button>
+                    </div>
+                </section>
             </div>
         </form>
     </section>

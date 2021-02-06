@@ -1272,156 +1272,6 @@ header .user-details p:nth-child(2) span {
   text-align: center;
 }
 
-/* line 2, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-entry.scss */
-#prize-entry-modal section {
-  padding: 0 1.5rem;
-}
-
-/* line 5, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-entry.scss */
-#prize-entry-modal section h1 {
-  padding: 1.5rem 0 0.5rem 1.5rem;
-  font-size: 1.5rem;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  color: #49526d;
-  text-align: center;
-  padding: 3rem 0 .5rem 0;
-  text-transform: uppercase;
-  padding-bottom: 3rem;
-}
-
-/* line 9, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-entry.scss */
-#prize-entry-modal section ul {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/* line 12, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-entry.scss */
-#prize-entry-modal section ul li {
-  flex-basis: 33%;
-  text-align: center;
-}
-
-/* line 15, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-entry.scss */
-#prize-entry-modal section ul li img {
-  width: 75px;
-  height: 95px;
-}
-
-/* line 22, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-entry.scss */
-#prize-entry-modal section form label, #prize-entry-modal section form p {
-  padding: 1.5rem 0 0.5rem 1.5rem;
-  font-size: 1.5rem;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  color: #49526d;
-  text-align: center;
-  padding: 3rem 0 .5rem 0;
-  text-transform: uppercase;
-  font-size: 1rem;
-  padding: 0;
-  text-align: inherit;
-}
-
-/* line 28, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-entry.scss */
-#prize-entry-modal section form div {
-  padding: 1.5rem;
-}
-
-/* line 31, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-entry.scss */
-#prize-entry-modal section form div:nth-of-type(1) {
-  border-bottom: #ececec solid 0.05rem;
-}
-
-/* line 33, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-entry.scss */
-#prize-entry-modal section form div:nth-of-type(1) input {
-  border: 0;
-  padding-left: 5rem;
-  width: 3rem;
-  font-size: 1.25rem;
-  color: #6a6a6a;
-}
-
-/* line 40, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-entry.scss */
-#prize-entry-modal section form div:nth-of-type(1) input:focus {
-  outline: none;
-}
-
-/* line 43, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-entry.scss */
-#prize-entry-modal section form div:nth-of-type(1) button {
-  background: white;
-  border-radius: .25rem;
-  border: #ff9285 solid 0.05rem;
-  padding: .5rem 1.5rem;
-  box-shadow: none;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
-  color: #ff9285;
-  text-transform: uppercase;
-  border-radius: 2rem;
-  padding: .5rem 1rem;
-  font-size: 1.5rem;
-}
-
-/* line 50, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-entry.scss */
-#prize-entry-modal section form div:nth-of-type(1) button:active {
-  background: #ff9285;
-  color: white;
-}
-
-/* line 55, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-entry.scss */
-#prize-entry-modal section form div:nth-of-type(1) button:nth-of-type(1) {
-  padding: .4rem 1.1rem .6rem 1.1rem;
-  margin: 0 1rem 0 2.25rem;
-}
-
-/* line 63, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-entry.scss */
-#prize-entry-modal section form div:nth-of-type(2) {
-  border-bottom: #ececec solid 0.05rem;
-}
-
-/* line 67, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-entry.scss */
-#prize-entry-modal section form input[type="submit"] {
-  border: #ff9285 solid 0.1rem;
-  height: 3rem;
-  flex-basis: 6rem;
-  margin: 1rem;
-  background: #ff9285;
-  border-radius: .25rem;
-  box-shadow: none;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 1rem;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  flex-basis: 27px;
-  margin: 0;
-}
-
-/* line 73, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-entry.scss */
-#prize-entry-modal section form div:nth-of-type(3) {
-  display: flex;
-  flex-direction: column;
-}
-
-/* line 76, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-entry.scss */
-#prize-entry-modal section form div:nth-of-type(3) button {
-  background: white;
-  border-radius: .25rem;
-  border: #ff9285 solid 0.05rem;
-  padding: .5rem 1.5rem;
-  box-shadow: none;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
-  color: #ff9285;
-  text-transform: uppercase;
-  flex-basis: 27px;
-  margin: 1rem 0;
-}
-
 /* line 4, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_today-poll.scss */
 #today-poll-modal section {
   padding: 0 1.5rem;
@@ -1608,21 +1458,21 @@ header .user-details p:nth-child(2) span {
   padding: 1.5rem 0;
 }
 
-/* line 30, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
-.adopt-and-convert-modal section form div:nth-of-type(1) {
+/* line 33, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
+.adopt-and-convert-modal section form > div:nth-of-type(1) {
   border-bottom: #ececec solid 0.05rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* line 36, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
-.adopt-and-convert-modal section form div:nth-of-type(1) label {
+/* line 39, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
+.adopt-and-convert-modal section form > div:nth-of-type(1) label {
   margin-right: auto;
 }
 
-/* line 39, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
-.adopt-and-convert-modal section form div:nth-of-type(1) input {
+/* line 42, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
+.adopt-and-convert-modal section form > div:nth-of-type(1) input {
   border: 0;
   width: 3rem;
   font-size: 1.25rem;
@@ -1630,13 +1480,13 @@ header .user-details p:nth-child(2) span {
   margin-left: auto;
 }
 
-/* line 47, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
-.adopt-and-convert-modal section form div:nth-of-type(1) input:focus {
+/* line 50, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
+.adopt-and-convert-modal section form > div:nth-of-type(1) input:focus {
   outline: none;
 }
 
-/* line 50, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
-.adopt-and-convert-modal section form div:nth-of-type(1) button {
+/* line 53, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
+.adopt-and-convert-modal section form > div:nth-of-type(1) button {
   background: white;
   border-radius: .25rem;
   border: #ff9285 solid 0.05rem;
@@ -1652,30 +1502,36 @@ header .user-details p:nth-child(2) span {
   font-size: 1.5rem;
 }
 
-/* line 57, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
-.adopt-and-convert-modal section form div:nth-of-type(1) button:active {
+/* line 60, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
+.adopt-and-convert-modal section form > div:nth-of-type(1) button:active {
   background: #ff9285;
   color: white;
 }
 
-/* line 62, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
-.adopt-and-convert-modal section form div:nth-of-type(1) button:nth-of-type(1) {
+/* line 65, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
+.adopt-and-convert-modal section form > div:nth-of-type(1) button:nth-of-type(1) {
   padding: .4rem 1.1rem .6rem 1.1rem;
   margin-right: 1.5rem;
 }
 
-/* line 68, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
-.adopt-and-convert-modal section form div:nth-of-type(2) {
+/* line 72, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
+.adopt-and-convert-modal section form > div:nth-of-type(2) {
   border-bottom: #ececec solid 0.05rem;
 }
 
-/* line 70, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
-.adopt-and-convert-modal section form div:nth-of-type(2) span {
+/* line 74, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
+.adopt-and-convert-modal section form > div:nth-of-type(2) span {
   float: right;
 }
 
-/* line 75, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
-.adopt-and-convert-modal section form input[type="submit"] {
+/* line 80, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
+.adopt-and-convert-modal section form > div:nth-of-type(3) {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 83, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
+.adopt-and-convert-modal section form > div:nth-of-type(3) button:nth-of-type(1) {
   border: #ff9285 solid 0.1rem;
   height: 3rem;
   flex-basis: 6rem;
@@ -1693,14 +1549,8 @@ header .user-details p:nth-child(2) span {
   margin: 0;
 }
 
-/* line 81, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
-.adopt-and-convert-modal section form div:nth-of-type(3) {
-  display: flex;
-  flex-direction: column;
-}
-
-/* line 84, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
-.adopt-and-convert-modal section form div:nth-of-type(3) button {
+/* line 89, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
+.adopt-and-convert-modal section form > div:nth-of-type(3) button:nth-of-type(2) {
   background: white;
   border-radius: .25rem;
   border: #ff9285 solid 0.05rem;
@@ -1715,17 +1565,23 @@ header .user-details p:nth-child(2) span {
   margin: 1rem 0;
 }
 
-/* line 95, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
-#convert-points-modal img {
-  width: 275px;
-  height: 155px;
-}
-
-/* line 100, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
+/* line 106, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
 #convert-points-modal form div > span {
   font-size: 1.25rem;
-  padding-left: .5rem;
+  margin-left: auto;
   font-weight: bolder;
+}
+
+/* line 114, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
+#convert-points-modal > section > figure > img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 121, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */
+#prize-entry-modal > section > figure > img {
+  width: 100%;
+  height: auto;
 }
 
 /* line 1, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_reward-history.scss */
@@ -1820,6 +1676,75 @@ header .user-details p:nth-child(2) span {
 /* line 55, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_reward-history.scss */
 .alt-modal-look section::-webkit-scrollbar {
   display: none;
+}
+
+/* line 1, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_confirm-purchase.scss */
+.confirm-purchase {
+  padding: initial !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+}
+
+/* line 8, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_confirm-purchase.scss */
+.confirm-purchase img {
+  width: 94px;
+  height: 41px;
+  padding-top: 3rem;
+}
+
+/* line 13, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_confirm-purchase.scss */
+.confirm-purchase p {
+  text-transform: initial !important;
+  font-weight: initial !important;
+  text-align: center !important;
+}
+
+/* line 17, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_confirm-purchase.scss */
+.confirm-purchase p span {
+  font-weight: bolder;
+}
+
+/* line 22, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_confirm-purchase.scss */
+.confirm-purchase div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 25, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_confirm-purchase.scss */
+.confirm-purchase div [type=submit] {
+  border: #ff9285 solid 0.1rem;
+  height: 3rem;
+  flex-basis: 6rem;
+  margin: 1rem;
+  background: #ff9285;
+  border-radius: .25rem;
+  box-shadow: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  flex-basis: 27px;
+  margin: 0;
+}
+
+/* line 31, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_confirm-purchase.scss */
+.confirm-purchase div button {
+  background: white;
+  border-radius: .25rem;
+  border: #ff9285 solid 0.05rem;
+  padding: .5rem 1.5rem;
+  box-shadow: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #ff9285;
+  text-transform: uppercase;
+  flex-basis: 27px;
+  margin: 1rem 0;
 }
 
 @media only screen and (max-width: 350px) {

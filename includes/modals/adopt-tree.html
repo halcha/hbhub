@@ -18,8 +18,21 @@
                 <p>new balance: <span>HB</span><span>1850</span></p>
             </div>
             <div>
-                <input type="submit" value="Redeem">
+                <button type="button" onclick="showConfirm(this)" mid="confirm-adopt">Redeem</button>
                 <button type="button" onclick="showModals(this)" mid="adopt-tree-modal">Cancel</button>
+            </div>
+            <div id="confirm-adopt" class="confirm-purchase modal no-display">
+                <section>
+                    <figure>
+                        <img src="./assets/logo-green.svg">
+                    </figure>
+                    <h1>Adopt a Tree</h1>
+                    <p>Are you sure you’d like to <span>adopt a tree</span> for <span>150HB</span>?</p>
+                    <div>
+                    <input type="submit" value="Yes">
+                    <button type="button" onclick="showConfirm(this)" mid="confirm-adopt">No</button>
+                    </div>
+                </section>
             </div>
         </form>
     </section>

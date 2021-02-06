@@ -1,30 +1,38 @@
-<!-- onclick="showModals(this)" -->
-<div id="prize-entry-modal" class="modal no-display">
+<div id="prize-entry-modal" class="modal adopt-and-convert-modal no-display">
     <section>
-        <h1>redeem prize entry</h1>
-        <ul>
-            <li><img src="./assets/prizes/bellabox.png"></li>
-            <li><img src="./assets/prizes/Easycome.png"></li>
-            <li><img src="./assets/prizes/Giftsaus.png"></li>
-            <li><img src="./assets/prizes/Minstone.png"></li>
-            <li><img src="./assets/prizes/Skullcandy.png"></li>
-            <li><img src="./assets/prizes/Tripodcoffee.png"></li>
-        </ul>
+        <h1>Enter the Prize Draw</h1>
+        <h2>Your Summer Playcation Bundle will be filled with:</h2>
+        <figure>
+        <img src="./assets/prize-entry-banner.png">
+        </figure>
         <form>
             <div id="sinolo">
             <label for="gift-card-quantity">Quantity:</label>
             <button id="dec" type="button">-</button>
             <button id="inc" type="button">+</button>
-            <input type="number" id="gift-card-quantity" name="gift-crad-quantity" value="1">
+            <input type="number" id="gift-card-quantity" name="gift-card-quantity" value="1">
             </div>
             <div>
-                <p>available balance: <span>2000</span><span>HB</span></p>
-                <p>total cost: <span>2000</span><span>HB</span></p>
-                <p>new balance: <span>0</span><span>HB</span></p>
+                <p>available balance: <span>HB</span><span>2000</span></p>
+                <p>total cost: <span>HB</span><span>300</span></p>
+                <p>new balance: <span>HB</span><span>1700</span></p>
             </div>
             <div>
-                <input type="submit" value="Redeem">
+                <button type="button" onclick="showConfirm(this)" mid="confirm-entry">Redeem</button>
                 <button type="button" onclick="showModals(this)" mid="prize-entry-modal">Cancel</button>
+            </div>
+            <div id="confirm-entry" class="confirm-purchase modal no-display">
+                <section>
+                    <figure>
+                        <img src="./assets/logo-green.svg">
+                    </figure>
+                    <h1>Convert your Points</h1>
+                    <p>Are you sure you’d like to get <span>a prize entry</span> for <span>300HB</span>?</p>
+                    <div>
+                    <input type="submit" value="Yes">
+                    <button type="button" onclick="showConfirm(this)" mid="confirm-entry">No</button>
+                    </div>
+                </section>
             </div>
         </form>
     </section>

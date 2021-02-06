@@ -17,27 +17,30 @@ function showModals(m) {
   fixPages();
 }
 
-function hideModals (e) {
-
+function showConfirm(m) {
+  let n = m.getAttribute('mid');
+  let x = document.getElementById(n); 
+  x.classList.toggle("no-display");
 }
 
 //Hide Modal 
 
-let m = document.getElementsByClassName("modal");
-for (i = 0; i < m.length; i++) {
-  m[i].addEventListener("click", function(e) {
+// let m = document.getElementsByClassName("modal");
+// for (i = 0; i < m.length; i++) {
+//   m[i].addEventListener("click", function(e) {
   
-    if (e.target !== e.currentTarget) {
-      //return;
-      console.log("test");
-    }
-    else {
-    console.log("Clicked the parent");
-    e.currentTarget.classList.toggle("no-display");
-    }
-  });
-}
+//     if (e.target !== e.currentTarget) {
+//       //return;
+//       console.log("test");
+//     }
+//     else {
+//     console.log("Clicked the parent");
+//     e.currentTarget.classList.toggle("no-display");
+//     }
+//   });
+// }
 
 // document.addEventListener("click", function(e) {
 //   console.log("the target is: " + e.target + " and the current target is: " + e.currentTarget + "the child of ");
 // })
+

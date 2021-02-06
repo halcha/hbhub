@@ -1,84 +1,84 @@
-#prize-entry-modal {
-    section {        
-        padding: 0 $mobile-margin;
+// #prize-entry-modal {
+//     section {        
+//         padding: 0 $mobile-margin;
     
-        h1{
-            @include modal-heading;
-            padding-bottom: 3rem;
-        }
-        ul {
-            display: flex;
-            flex-wrap: wrap;
-            li{
-                flex-basis: 33%;
-                text-align: center;
-                img {
-                    width: 75px;
-                    height: 95px;
-                }
-            }
-        }
-        form {
-            label, p {
-                @include modal-heading;
-                font-size: 1rem;
-                padding: 0;
-                text-align: inherit;
-            }
-            div {
-                padding: $mobile-margin;
-            }
-            div:nth-of-type(1) {
-                border-bottom: $border-light-grey;
-                input {
-                    border: 0;
-                    padding-left: 5rem;
-                    width: 3rem;
-                    font-size: 1.25rem;
-                    color: $copy-grey;
-                }
-                input:focus {
-                    outline: none;
-                }
-                button {
-                    @include inverted-button;
-                    border-radius: 2rem;
-                    padding: .5rem 1rem;
-                    font-size: 1.5rem;
-                }
+//         h1{
+//             @include modal-heading;
+//             padding-bottom: 3rem;
+//         }
+//         ul {
+//             display: flex;
+//             flex-wrap: wrap;
+//             li{
+//                 flex-basis: 33%;
+//                 text-align: center;
+//                 img {
+//                     width: 75px;
+//                     height: 95px;
+//                 }
+//             }
+//         }
+//         form {
+//             label, p {
+//                 @include modal-heading;
+//                 font-size: 1rem;
+//                 padding: 0;
+//                 text-align: inherit;
+//             }
+//             div {
+//                 padding: $mobile-margin;
+//             }
+//             div:nth-of-type(1) {
+//                 border-bottom: $border-light-grey;
+//                 input {
+//                     border: 0;
+//                     padding-left: 5rem;
+//                     width: 3rem;
+//                     font-size: 1.25rem;
+//                     color: $copy-grey;
+//                 }
+//                 input:focus {
+//                     outline: none;
+//                 }
+//                 button {
+//                     @include inverted-button;
+//                     border-radius: 2rem;
+//                     padding: .5rem 1rem;
+//                     font-size: 1.5rem;
+//                 }
 
-                button:active {
-                    background: $secondary;
-                    color: white;
-                }
+//                 button:active {
+//                     background: $secondary;
+//                     color: white;
+//                 }
 
-                button:nth-of-type(1) {
-                    padding: .4rem 1.1rem .6rem 1.1rem;
-                    margin: 0 1rem 0 2.25rem;
-                }
+//                 button:nth-of-type(1) {
+//                     padding: .4rem 1.1rem .6rem 1.1rem;
+//                     margin: 0 1rem 0 2.25rem;
+//                 }
 
                 
-            }
+//             }
             
-            div:nth-of-type(2) {
-                border-bottom: $border-light-grey;
-            }
+//             div:nth-of-type(2) {
+//                 border-bottom: $border-light-grey;
+//             }
 
-            input[type="submit"] {
-                @include orange-button;
-                flex-basis:  27px;
-                margin: 0;
-            }
+//             input[type="submit"] {
+//                 @include orange-button;
+//                 flex-basis:  27px;
+//                 margin: 0;
+//             }
 
-            div:nth-of-type(3) {
-                display: flex;
-                flex-direction: column;
-                button {
-                    @include inverted-button;
-                    flex-basis: 27px;
-                    margin: 1rem 0;
-                }
-            }
-        }
-    }
-}
+//             div:nth-of-type(3) {
+//                 display: flex;
+//                 flex-direction: column;
+//                 button {
+//                     @include inverted-button;
+//                     flex-basis: 27px;
+//                     margin: 1rem 0;
+//                 }
+//             }
+//         }
+//     }
+// }
