@@ -1225,7 +1225,14 @@ header .user-details p:nth-child(2) span {
 }
 
 /* line 54, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-draw.scss */
-#prize-draw-modal section button {
+#prize-draw-modal section div {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1.5rem;
+}
+
+/* line 58, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-draw.scss */
+#prize-draw-modal section div button:nth-of-type(1) {
   border: #ff9285 solid 0.1rem;
   height: 3rem;
   flex-basis: 6rem;
@@ -1239,13 +1246,12 @@ header .user-details p:nth-child(2) span {
   color: white;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  text-align: center;
-  margin: 1rem 6rem;
-  flex-basis: 2.5rem;
+  flex-basis: 27px;
+  margin: 0;
 }
 
-/* line 62, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-draw.scss */
-#prize-draw-modal section button:nth-of-type(2) {
+/* line 64, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-draw.scss */
+#prize-draw-modal section div button:nth-of-type(2) {
   background: white;
   border-radius: .25rem;
   border: #ff9285 solid 0.05rem;
@@ -1256,9 +1262,11 @@ header .user-details p:nth-child(2) span {
   font-size: 1rem;
   color: #ff9285;
   text-transform: uppercase;
+  flex-basis: 27px;
+  margin: 1rem 0;
 }
 
-/* line 66, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-draw.scss */
+/* line 71, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_prize-draw.scss */
 #prize-draw-modal section > p {
   padding: 1.5rem 0 0.5rem 1.5rem;
   font-size: 1.5rem;
@@ -1327,12 +1335,51 @@ header .user-details p:nth-child(2) span {
   margin: 1rem 0 3rem 0;
 }
 
-/* line 4, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
+/* line 10, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
 #status-tiers-modal section {
   padding: 0 4rem 1.5rem 4rem;
 }
 
-/* line 6, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
+/* line 13, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
+#status-tiers-modal section .progress-container {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 21, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
+#status-tiers-modal section .back-progress {
+  display: inline-block;
+  position: relative;
+  height: 550px;
+  width: 6px;
+  background: #f6f6f6;
+  border-radius: 1rem;
+}
+
+/* line 30, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
+#status-tiers-modal section .front-progress {
+  height: calc(550px * 0.5);
+  width: 6px;
+  background: #49526d;
+  border-radius: 1rem;
+}
+
+/* line 37, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
+#status-tiers-modal section .dot-progress {
+  height: 6px;
+  width: 6px;
+  background: white;
+  border: 3px solid #49526d;
+  border-radius: 1rem;
+  position: absolute;
+  top: calc(550px * 0.5 - 3px);
+  left: -3px;
+}
+
+/* line 47, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
 #status-tiers-modal section h1 {
   padding: 1.5rem 0 0.5rem 1.5rem;
   font-size: 1.5rem;
@@ -1344,50 +1391,50 @@ header .user-details p:nth-child(2) span {
   text-transform: uppercase;
 }
 
-/* line 9, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
+/* line 50, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
 #status-tiers-modal section li {
   display: flex;
 }
 
-/* line 12, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
+/* line 53, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
 #status-tiers-modal section li figure {
   padding: 0 5rem 1rem 0;
 }
 
-/* line 14, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
+/* line 55, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
 #status-tiers-modal section li figure .tier-img {
   background-size: contain;
   background-repeat: no-repeat;
   border: 0;
 }
 
-/* line 19, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
+/* line 60, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
 #status-tiers-modal section li figure .rookie-svg {
   background-image: url("/assets/rookie-trophy.svg");
 }
 
-/* line 23, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
+/* line 64, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
 #status-tiers-modal section li figure .pro-svg {
   background-image: url("/assets/pro-trophy.svg");
 }
 
-/* line 27, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
+/* line 68, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
 #status-tiers-modal section li figure .champ-svg {
   background-image: url("/assets/champ-trophy.svg");
 }
 
-/* line 31, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
+/* line 72, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
 #status-tiers-modal section li figure .all-star-svg {
   background-image: url("/assets/all-star-trophy.svg");
 }
 
-/* line 34, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
+/* line 75, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
 #status-tiers-modal section li figure svg {
   width: 100px;
   height: 100px;
 }
 
-/* line 38, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
+/* line 79, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
 #status-tiers-modal section li figure figcaption {
   padding: 1.5rem 0 0.5rem 1.5rem;
   font-size: 1.5rem;
@@ -1401,10 +1448,32 @@ header .user-details p:nth-child(2) span {
   padding: 0;
 }
 
-/* line 44, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
+/* line 85, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
 #status-tiers-modal section li ul {
   font-size: .8rem;
   padding-top: 1rem;
+}
+
+/* line 90, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
+#status-tiers-modal section div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1.5rem;
+}
+
+/* line 95, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
+#status-tiers-modal section div:nth-of-type(2) button {
+  background: white;
+  border-radius: .25rem;
+  border: #ff9285 solid 0.05rem;
+  padding: .5rem 1.5rem;
+  box-shadow: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #ff9285;
+  text-transform: uppercase;
+  flex-basis: 27px;
 }
 
 /* line 2, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_adopt-convert.scss */

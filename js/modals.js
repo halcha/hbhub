@@ -23,6 +23,14 @@ function showConfirm(m) {
   x.classList.toggle("no-display");
 }
 
+function switchModals(m) {
+  //close the initial
+  m.parentElement.parentElement.parentElement.classList.toggle("no-display");
+  let n = m.getAttribute('mid');
+  let x = document.getElementById(n); 
+  x.classList.toggle("no-display");
+}
+
 //Hide Modal 
 
 // let m = document.getElementsByClassName("modal");

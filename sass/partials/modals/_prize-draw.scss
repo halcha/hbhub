@@ -51,24 +51,29 @@
         width: 100%
       }
     }
-    button {
-      @include orange-button;
-      text-align: center;
-      margin: 1rem 6rem;
-      flex-basis: 2.5rem
-      
-    }
+    div {
+      display: flex;
+      flex-direction: column;
+      margin: 0 $mobile-margin;
+      button:nth-of-type(1) {
+              @include orange-button;
+              flex-basis:  27px;
+              margin: 0;
+      }
 
-    button:nth-of-type(2) {
-      @include inverted-button;
-    }
+      button:nth-of-type(2) {
+          @include inverted-button;
+          flex-basis: 27px;
+          margin: 1rem 0;
+      }
   }
-  section > p {
-      @include section-heading;
-      font-weight: lighter;
-      line-height: 1.2;
-      font-size: 1.3rem;
-      padding: 1rem 0;
-      text-align: center;
+}
+    section > p {
+        @include section-heading;
+        font-weight: lighter;
+        line-height: 1.2;
+        font-size: 1.3rem;
+        padding: 1rem 0;
+        text-align: center;
   }
 }
