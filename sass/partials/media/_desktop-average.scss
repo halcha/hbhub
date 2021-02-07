@@ -157,6 +157,22 @@
         }
     }
 
+// centre align rewards history modal
+
+    #reward-hist-modal {
+        display: flex;
+        justify-content: center;
+        section {
+            max-height: 800px;
+            position: fixed;
+            .modal-buttons {
+                width: unset;
+                position: sticky;
+                padding: .5rem 0;
+            }
+        }
+    }
+
 }
 
 

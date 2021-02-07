@@ -2031,6 +2031,22 @@ header .user-details p:nth-child(2) span {
   #status-tiers-modal section li figure {
     margin: 0 4rem 0 0;
   }
+  /* line 162, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  #reward-hist-modal {
+    display: flex;
+    justify-content: center;
+  }
+  /* line 165, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  #reward-hist-modal section {
+    max-height: 800px;
+    position: fixed;
+  }
+  /* line 168, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  #reward-hist-modal section .modal-buttons {
+    width: unset;
+    position: sticky;
+    padding: .5rem 0;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
