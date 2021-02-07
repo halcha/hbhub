@@ -19,7 +19,7 @@ header {
     padding: $mobile-margin 0 0 0;
 // container for logo
     .logo-container {
-      flex-grow: 3;
+      flex-basis: 70%;
     }
 // mobile menu close button
     button {
@@ -27,9 +27,12 @@ header {
       background: none;
       border: none;
       flex-grow: 1;
+      position: relative;
       //padding-right: 1rem;
       img {
-        //float: right;
+        position: absolute;
+        right: 3.5rem;
+        top: .75rem
       }
     }
   }
@@ -67,8 +70,7 @@ header {
     border-bottom: $divider-grey solid .1rem;
   }
   .stats-and-polls {
-    height: 25%;
-    min-height: 150px;
+    height: 150px;
     width: auto;
   }
   .surveys-quizzes {

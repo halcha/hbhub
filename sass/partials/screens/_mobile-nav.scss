@@ -30,6 +30,7 @@
       flex-grow: 1;
       img {
         float: right;
+        padding: .75rem;
       }
     }
   }
@@ -57,11 +58,14 @@
         border: none;
         div {
           width: 2rem;
-        img {
-          display: block;
+      }
+
+        figure {
+          background-color: red;
+          width: 20px;
+          height: 20px;
           margin: auto;
         }
-      }
         p {
           text-transform: uppercase;
           letter-spacing: .1rem;
@@ -84,6 +88,25 @@
           }
         }
       }
+
+// background images for menu icons 
+
+      #home-icon {
+          background: url(/assets/home.svg) center no-repeat;
+      }
+
+      #profile-icon {
+        background: url(/assets/profile.svg) center no-repeat;
+      }
+
+      #about-icon {
+        background: url(/assets/about.svg) center no-repeat;
+      }
+
+      #logout-icon {
+        background: url(/assets/logout.svg) center no-repeat;
+      }
+
       a:active {
         background: $opaque-highlight;
       }

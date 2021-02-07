@@ -16,6 +16,11 @@
             display: flex;
             justify-content: center;
         }
+        > figure > img {
+            width: 100%;
+            height: auto;
+            max-width: 400px;
+        }
         form {
             label, p {
                 @include modal-heading;
@@ -111,15 +116,16 @@
     }
 }
 
-#convert-points-modal > section > figure > img {
-    width: 100%;
-    height: auto;
-}
+// #convert-points-modal > section > figure > img {
+//     width: 100%;
+//     height: auto;
+// }
 
-// specific to prize entry
+// // specific to prize entry
 
-#prize-entry-modal > section > figure > img {
-    width: 100%;
-    height: auto;
-}
+// #prize-entry-modal > section > figure > img {
+//     width: 100%;
+//     height: auto;
+//     max-width: 500px;
+// }
 

@@ -13,7 +13,7 @@
 //hides nav after clicking a menu item
 function mobNavButton() {
   let x = document.getElementById("nav-container");
-  x.classList.toggle("no-display");
+  x.classList.toggle("no-display-nav");
 }
 
 //hides any pages that are open

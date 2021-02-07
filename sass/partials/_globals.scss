@@ -1,6 +1,7 @@
 //-colours
 $teal-primary: linear-gradient(to right, #2C989B, #a9d5d7);
 $copy-grey: #6a6a6a;
+$light-grey: #989898;
 $divider-grey: #ececec;
 $off-white: #f6f6f6;
 $charcoal: #323232;
@@ -39,6 +40,7 @@ $card-letter-spacing: .1rem;
 //-measurements
 $header-height: 9rem;
 $mobile-margin: 1.5rem;
+$desktop-margin: calc(#{$mobile-margin}*3);
 $big-card-width: 275px;
 $min-modal-width: 285px;
 
@@ -139,6 +141,11 @@ button {
 
 .no-display {
   display: none!important;
+}
+
+// separate from modals display class for media queries (always display for desktop and up)
+.nav-display {
+  display: none;
 }
 
 .fix-display {

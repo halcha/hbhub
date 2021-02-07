@@ -1,0 +1,164 @@
+@media only screen and (min-width: 1280px) {
+   
+
+    .nav-display {
+       display: block;
+   } 
+
+   .mobile-nav {
+    top: $header-height;
+    right: inherit; 
+    width: 280px;
+    background-image: unset;
+    background-color: white;
+    color: $copy-grey;
+    > div:nth-of-type(1), > hr {
+        display: none;
+    }
+
+    > ul > li {
+        margin: 3rem 0;
+    }
+
+    .menu-item-content p {
+        color: $light-grey;
+    }
+
+    //give the menu items the desktop margin
+        a {
+            margin-left: calc(#{$desktop-margin} - #{$mobile-margin});
+        }
+   }
+
+//    move the content screen over to make room for the nav
+   .content {
+    margin-left: 300px;
+    padding-left: 1.5rem
+   }
+
+// change background images for menu icons
+
+    #home-icon {
+        background: url(/assets/home-grey.svg) center no-repeat !important;
+    }
+
+    #profile-icon {
+    background: url(/assets/profile-grey.svg) center no-repeat !important;
+    }
+
+    #about-icon {
+    background: url(/assets/about-grey.svg) center no-repeat !important;
+    }
+
+    #logout-icon {
+    background: url(/assets/logout-grey.svg) center no-repeat !important;
+    }
+
+//update header margin for desktop
+
+    header {
+        padding: 0 $desktop-margin;
+        display: flex;
+        flex-direction: row;
+// get rid of menu button from mobile view
+        button {
+            display: none;
+        }
+        section {
+            align-items: center;
+            padding: 0 !important;
+        }
+        section:nth-of-type(1) {
+            flex-basis: 75%;
+        }
+
+    }
+
+// modal edits
+    .modal {
+        section {
+            max-width: max-content;
+        }
+    }
+
+//make cards and sections bigger for desktop view
+
+    .reward-card, .survey-card {
+        height: 200px;
+        width: calc(320px - #{$mobile-margin});
+        img {
+            height: 120px;
+            width: 320px;
+        }
+        div {
+            position: relative;
+            padding-top: .75rem;
+            button {
+                position: absolute;
+                right: .5rem;
+            }
+        }
+    }
+
+    .content .surveys-quizzes {
+        min-height: 280px;
+    }
+
+
+// align modals in the centre of desktop
+
+    .modal {
+        section {
+        margin: calc(#{$header-height} + #{$desktop-margin}) auto 0;
+        }
+    }
+
+// resize modal buttons for spending hb points 
+
+    .adopt-and-convert-modal {
+        section {
+            h2 {
+                font-size: 1.5rem;
+                a{ 
+                    font-size: 1.25rem;
+                }
+            }
+            form > div:nth-of-type(3) {
+                button {
+                    width: 400px;
+                    margin: .5rem auto !important;
+                }
+            }
+        }
+
+    }
+
+    #status-tiers-modal section div:nth-of-type(2) button, {
+        width: 400px;
+        margin: .5rem auto !important;
+    }
+
+    #today-poll-modal section form div {
+        input[type="submit"], button {
+            width: 400px;
+            margin: .5rem auto !important;
+        }
+    }
+
+// centre align status 
+    #status-tiers-modal section li {
+        justify-content: center;
+        ul {
+            text-align: center;
+            margin: 0 0 0 4rem;
+        }
+        figure {
+            margin: 0 4rem 0 0;
+        }
+    }
+
+}
+
+
+    
+

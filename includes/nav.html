@@ -1,4 +1,4 @@
-<nav id="nav-container" class="mobile-nav no-display">
+<nav id="nav-container" class="mobile-nav nav-display">
     <!-- container for logo and close button -->
     <div>
         <!-- container for logo  -->
@@ -17,7 +17,7 @@
         <a onclick="showHome()" href="#" class="menu-item-content">
     <!-- container for home icon  -->
             <div>
-            <img src="./assets/home.svg">
+            <figure id="home-icon"></figure>
             </div>
             <p>Home</p>
         </a>
@@ -35,22 +35,22 @@
         <a onclick="showProfile()" href="#" class="menu-item-content">
     <!-- container for profile icon  -->
             <div>
-            <img src="./assets/profile.svg">
+            <figure id="profile-icon"></figure>
             </div>
             <p>My Profile</p>
     <!-- notification icon for integration with data (uncomment template tags to hide)  -->
-            <!-- <template> -->
+            <!-- <template>
             <div class="notif">
             <p>9</p>
             </div>
-        <!-- </template> -->
+        </template> -->
         </a>
         </li>
         <li>
         <a onclick="dropDown(this)" href="#" class="menu-item-content">
     <!-- container for rewards icon  -->
         <div>
-        <img src="./assets/about.svg">
+        <figure id="about-icon"></figure>
         </div>
         <p>About</p>
         <img src="./assets/chevron.svg" class="chevron">
@@ -64,7 +64,7 @@
         <a href="#" class="menu-item-content">
     <!-- container for logout icon  -->
         <div>
-        <img src="./assets/logout.svg">
+        <figure id="logout-icon"></figure>
         </div>
         <p>Logout</p>
         </a>

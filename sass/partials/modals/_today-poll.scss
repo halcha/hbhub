@@ -22,9 +22,21 @@
         color: $highlight;
         font-size: 1.1rem
       }
-      input[type=submit] {
-        @include orange-button;
-        margin: 1rem 0 3rem 0;
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        input[type=submit] {
+          @include orange-button;
+          flex-basis: unset;
+          padding: .5rem 1.5rem;
+          margin: 1rem 0;
+          height: unset;
+        }
+        button {
+          @include inverted-button;
+          margin-bottom: 1rem;
+        }
       }
     }
   }
