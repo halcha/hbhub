@@ -1,7 +1,7 @@
 //variables for status progress bar
 
 $progress-width: 6px;
-$progress-height: 550px;
+$progress-height: 500px;
 
 
 // status tiers modal 
@@ -51,7 +51,8 @@ $progress-height: 550px;
       display: flex;
       //align-items: center;
       figure {
-        padding: 0 5rem 1rem 0;
+        min-width: 120px;
+        text-align: center;
         .tier-img {
           background-size: contain;
           background-repeat: no-repeat;
@@ -79,18 +80,21 @@ $progress-height: 550px;
         figcaption {
           @include modal-heading;
           font-size: 1rem;
-          padding: 0
+          padding: 0;
         }
     }
       ul {
         font-size: .8rem;
         padding-top: 1rem;
+        margin: 0 auto;
+        max-width: 120px;
+        padding-left: 4.5rem;
       }
     }
     div:nth-of-type(2) {
       display: flex;
       flex-direction: column;
-      margin: 0 $mobile-margin;
+      margin: $mobile-margin $mobile-margin 0;
 
       button {
           @include inverted-button;

@@ -31,9 +31,18 @@
     section {
         min-width: auto !important;
     }
+
     #status-tiers-modal {
         section {
-            padding: 0 2rem 1.5rem;
+            padding: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    #status-tiers-modal {
+        section {
+            padding: 0 1.5rem 1.5rem;
         }
     }
 }
