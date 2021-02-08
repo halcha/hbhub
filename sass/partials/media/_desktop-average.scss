@@ -104,6 +104,15 @@
         min-height: 280px;
     }
 
+    .coming-soon-card {
+        height: 200px;
+        width: 415px;
+        div:nth-of-type(1) {
+            height:120px;
+            width: calc(415px + #{$mobile-margin});
+        }
+    }
+
 
 // align modals in the centre of desktop
 
@@ -172,6 +181,14 @@
             }
         }
     }
+
+// reveal the horizontal scrollbar on computer
+
+    .nobar {
+        -ms-overflow-style: unset;
+        scrollbar-width: auto;
+    }
+
 
 }
 

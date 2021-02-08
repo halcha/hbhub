@@ -1,0 +1,23 @@
+.coming-soon-card {
+    @include card;
+    @include big-card;
+    width: 375px;
+    div:nth-of-type(1) {
+        height: 90px;
+        width: calc(375px + 1.5rem);
+        margin-left: -1.5rem;
+        background-image: url(/assets/clock.svg), linear-gradient(to right, #49526D, #a9adba);  
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    div:nth-of-type(2) {
+        height: 90px;
+        p {
+            font-family: $heading;
+            font-weight: $heading-weight;
+            letter-spacing: $card-letter-spacing;
+            color: $highlight;
+            padding-top: .5rem;
+        }
+    }
+}
