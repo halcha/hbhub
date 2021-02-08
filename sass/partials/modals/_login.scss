@@ -1,0 +1,50 @@
+#login-modal {
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        figure {
+            display: flex;
+            justify-content: center;
+            img {
+                width: 94px !important;
+                height: 41px !important;
+                padding: 3rem 0;
+            }
+        }
+        h1 {
+            font-family: $title;
+            text-transform: uppercase;
+            font-size: 1.5rem;
+        }
+        p {
+            max-width: 260px;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+            padding: 1.5rem;
+            width: calc(100% - 3rem);
+
+            *{
+                margin-bottom: 1rem;
+            }
+
+            [type=submit] {
+                @include orange-button;
+                margin: 1rem 0;
+                flex-basis: unset;
+                height: unset;
+                padding: .5rem 0;
+            }
+
+            button {
+                @include inverted-button;
+                
+            }
+        }
+    }
+}

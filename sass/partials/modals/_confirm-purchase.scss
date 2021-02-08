@@ -4,10 +4,11 @@
     flex-direction: column;
     justify-content: center;
     min-height: 100%;
+    margin-top: 0 !important;
 
     img {
-            width: 94px;
-            height: 41px;
+            width: 94px !important;
+            height: 41px !important;
             padding-top: 3rem;
         }
     p {

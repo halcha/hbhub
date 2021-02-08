@@ -17,6 +17,7 @@ function showModals(m) {
   fixPages();
 }
 
+//without the fixed pages toggle
 function showConfirm(m) {
   let n = m.getAttribute('mid');
   let x = document.getElementById(n); 

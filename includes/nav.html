@@ -14,7 +14,7 @@
     <!-- <template> -->
     <ul>
         <li>
-        <a onclick="showHome()" href="#" class="menu-item-content">
+        <a onclick="showModals(this)" mid="login-modal" href="#" class="menu-item-content">
     <!-- container for home icon  -->
             <div>
             <figure id="home-icon"></figure>
@@ -32,7 +32,7 @@
         <!-- </a> -->
         <!-- </li> -->
         <li>
-        <a onclick="showProfile()" href="#" class="menu-item-content">
+        <a onclick="showModals(this)" mid="login-modal" href="#" class="menu-item-content">
     <!-- container for profile icon  -->
             <div>
             <figure id="profile-icon"></figure>
@@ -47,7 +47,7 @@
         </a>
         </li>
         <li>
-        <a onclick="dropDown(this)" href="#" class="menu-item-content">
+        <a onclick="showModals(this)" mid="login-modal" href="#" class="menu-item-content">
     <!-- container for rewards icon  -->
         <div>
         <figure id="about-icon"></figure>
@@ -56,8 +56,8 @@
         <img src="./assets/chevron.svg" class="chevron">
         </a>
         <ul class="no-display">
-        <li><a onclick="showAbout()" href="#">What is HB Hub?</a></li>
-        <li><a onclick="showFaq()" href="#">FAQ</a></li>
+        <li><a onclick="showModals(this)" mid="login-modal" href="#">What is HB Hub?</a></li>
+        <li><a onclick="showModals(this)" mid="login-modal" href="#">FAQ</a></li>
         </ul>
         </li>
         <li>
