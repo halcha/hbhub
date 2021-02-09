@@ -1522,22 +1522,22 @@ header .user-details p:nth-child(2) span {
 
 /* line 61, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
 #status-tiers-modal section li figure .rookie-svg {
-  background-image: url("/assets/rookie-trophy.svg");
+  background-image: url("../assets/rookie-trophy.svg");
 }
 
 /* line 65, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
 #status-tiers-modal section li figure .pro-svg {
-  background-image: url("/assets/pro-trophy.svg");
+  background-image: url("../assets/pro-trophy.svg");
 }
 
 /* line 69, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
 #status-tiers-modal section li figure .champ-svg {
-  background-image: url("/assets/champ-trophy.svg");
+  background-image: url("../assets/champ-trophy.svg");
 }
 
 /* line 73, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
 #status-tiers-modal section li figure .all-star-svg {
-  background-image: url("/assets/all-star-trophy.svg");
+  background-image: url("../assets/all-star-trophy.svg");
 }
 
 /* line 76, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_status-tiers.scss */
