@@ -2133,98 +2133,98 @@ header .user-details p:nth-child(2) span {
     display: flex;
     flex-direction: row;
   }
-  /* line 64, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
-  header button {
+  /* line 65, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  header section:nth-of-type(1) > button {
     display: none;
   }
-  /* line 67, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  /* line 69, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
   header section {
     align-items: center;
     padding: 0 !important;
   }
-  /* line 71, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  /* line 73, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
   header section:nth-of-type(2) {
     margin: 0 9.5rem 0 auto;
   }
-  /* line 79, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  /* line 81, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
   .modal section {
     width: 450px;
     margin: calc(9rem + calc(1.5rem*3)) auto 0;
   }
-  /* line 98, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  /* line 100, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
   .reward-card, .survey-card {
     height: 200px;
     width: calc(320px - 1.5rem);
   }
-  /* line 101, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  /* line 103, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
   .reward-card img, .survey-card img {
     height: 120px;
     width: 320px;
   }
-  /* line 105, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  /* line 107, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
   .reward-card div, .survey-card div {
     position: relative;
     padding-top: .75rem;
   }
-  /* line 108, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  /* line 110, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
   .reward-card div button, .survey-card div button {
     position: absolute;
     right: .5rem;
   }
-  /* line 115, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  /* line 117, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
   .content .surveys-quizzes {
     min-height: 280px;
   }
-  /* line 119, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  /* line 121, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
   .coming-soon-card {
     height: 200px;
     width: calc(320px - 1.5rem);
   }
-  /* line 122, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  /* line 124, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
   .coming-soon-card div:nth-of-type(1) {
     height: 120px;
     width: 320px;
   }
-  /* line 132, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  /* line 134, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
   .reward-modal section h2 {
     font-size: 1.5rem;
   }
-  /* line 134, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  /* line 136, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
   .reward-modal section h2 a {
     font-size: 1.25rem;
   }
-  /* line 139, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  /* line 141, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
   .reward-modal section form > div:nth-of-type(3) button {
     width: 100%;
   }
-  /* line 148, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  /* line 150, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
   #status-tiers-modal section div:nth-of-type(2) button {
     width: 400px;
     margin: .5rem auto !important;
   }
-  /* line 154, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  /* line 156, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
   #today-poll-modal section form > input {
     margin: 2rem 2rem 2rem 0;
   }
-  /* line 157, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  /* line 159, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
   #today-poll-modal section form > label {
     font-size: 1.4rem;
   }
-  /* line 161, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  /* line 163, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
   #today-poll-modal section form div input[type="submit"], #today-poll-modal section form div button {
     width: 100%;
   }
-  /* line 170, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  /* line 172, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
   #reward-hist-modal section {
     max-height: 800px;
     position: fixed;
   }
-  /* line 178, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  /* line 180, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
   .nobar {
     -ms-overflow-style: unset;
     scrollbar-width: auto;
   }
-  /* line 186, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
+  /* line 188, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/media/_desktop-average.scss */
   #prize-draw-modal ul {
     margin: 0 calc(1.5rem*3) !important;
   }
