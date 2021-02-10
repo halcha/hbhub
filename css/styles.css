@@ -1990,8 +1990,7 @@ header .user-details p:nth-child(2) span {
   display: flex;
   flex-direction: column;
   align-self: flex-start;
-  padding: 1.5rem;
-  width: calc(100% - 3rem);
+  width: calc(100% - 9rem);
 }
 
 /* line 32, ../../../../../Users/samhall/Documents/local_repos/projects/hbhub/sass/partials/modals/_login.scss */
