@@ -9,11 +9,17 @@
   height: auto;
   min-height: 100vh;
   background-color: $fade;
+  padding: 0 1.5rem;
   section {
+    > * {
+      margin: 0 $desktop-margin;
+    }
     @include card;
-    margin: calc(#{$header-height} + #{$mobile-margin}) $mobile-margin 0 $mobile-margin;
+    margin: $modal-margin-mobile;
+    // margin: calc(#{$header-height} + #{$mobile-margin}) $mobile-margin 0 $mobile-margin;
     padding: 0;
     min-width: $min-modal-width;
+    max-width: $max-modal-width;
     //position: relative;
   }
   * {

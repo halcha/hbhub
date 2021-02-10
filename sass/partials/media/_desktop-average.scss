@@ -68,8 +68,8 @@
             align-items: center;
             padding: 0 !important;
         }
-        section:nth-of-type(1) {
-            flex-basis: 75%;
+        section:nth-of-type(2) {
+            margin: 0 9.5rem 0 auto;
         }
 
     }
@@ -77,18 +77,30 @@
 // modal edits
     .modal {
         section {
-            max-width: max-content;
+            width: $max-modal-width;
+            margin: $modal-margin-desktop;
+            // > * {
+            //     padding: 0 $desktop-margin;
+            // }
         }
     }
+
+    // #status-tiers-modal {
+    //     section {
+    //         > * {
+    //             padding: unset;
+    //         }
+    //     }
+    // }
 
 //make cards and sections bigger for desktop view
 
     .reward-card, .survey-card {
-        height: 200px;
-        width: calc(320px - #{$mobile-margin});
+        height: $card-height-desktop;
+        width: calc(#{$card-width-desktop} - #{$mobile-margin});
         img {
             height: 120px;
-            width: 320px;
+            width: $card-width-desktop;
         }
         div {
             position: relative;
@@ -105,26 +117,17 @@
     }
 
     .coming-soon-card {
-        height: 200px;
-        width: 415px;
+        height: $card-height-desktop;
+        width: calc(#{$card-width-desktop} - #{$mobile-margin});
         div:nth-of-type(1) {
             height:120px;
-            width: calc(415px + #{$mobile-margin});
-        }
-    }
-
-
-// align modals in the centre of desktop
-
-    .modal {
-        section {
-        margin: calc(#{$header-height} + #{$desktop-margin}) auto 0;
+            width: $card-width-desktop;
         }
     }
 
 // resize modal buttons for spending hb points 
 
-    .adopt-and-convert-modal {
+    .reward-modal {
         section {
             h2 {
                 font-size: 1.5rem;
@@ -134,51 +137,39 @@
             }
             form > div:nth-of-type(3) {
                 button {
-                    width: 400px;
-                    margin: .5rem auto !important;
+                    width: 100%
+                    //margin: .5rem auto !important;
                 }
             }
         }
 
     }
 
-    #status-tiers-modal section div:nth-of-type(2) button, {
+    #status-tiers-modal section div:nth-of-type(2) button {
         width: 400px;
         margin: .5rem auto !important;
     }
 
-    #today-poll-modal section form div {
+    #today-poll-modal section form {
+        > input {
+            margin: 2rem 2rem 2rem 0; 
+          }   
+        > label {
+                font-size: 1.4rem;
+        }
+        div {
         input[type="submit"], button {
-            width: 400px;
-            margin: .5rem auto !important;
+            width: 100%;
+            //margin: .5rem auto !important;
         }
     }
-
-// centre align status 
-    #status-tiers-modal section li {
-        justify-content: center;
-        ul {
-            text-align: center;
-            margin: 0 0 0 4rem;
-        }
-        figure {
-            margin: 0 4rem 0 0;
-        }
     }
-
 // centre align rewards history modal
 
     #reward-hist-modal {
-        display: flex;
-        justify-content: center;
         section {
             max-height: 800px;
             position: fixed;
-            .modal-buttons {
-                width: unset;
-                position: sticky;
-                padding: .5rem 0;
-            }
         }
     }
 
@@ -189,9 +180,13 @@
         scrollbar-width: auto;
     }
 
+    // reset the margin for prize draw modal 
 
-}
+    #prize-draw-modal {
+        ul {
+            margin: 0 $desktop-margin !important;
+        }
+    }
 
-
-    
+} 
 

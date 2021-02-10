@@ -27,14 +27,37 @@
 //         }
 //     }
 // }
+@media only screen and (max-width: 330px) {
+    #status-tiers-modal {
+        section {
+            li {
+                figure {
+                    margin: 0;
+                }
+                ul {
+                    margin: 0 0 0 auto;
+                }
+            }
+        }
+    }
+
+}
+
+
 @media only screen and (max-width: 350px) {
     section {
         min-width: auto !important;
     }
 
+    .reward-modal {
+        section > form {
+            margin: 0 2rem;
+        }
+    }
+
     #status-tiers-modal {
         section {
-            padding: 0;
+            //padding: 0;
         }
     }
 }
@@ -42,7 +65,31 @@
 @media only screen and (max-width: 410px) {
     #status-tiers-modal {
         section {
-            padding: 0 1.5rem 1.5rem;
+            //padding: 0 1.5rem 1.5rem;
         }
+    }
+}
+
+@media only screen and (min-width: 460px) {
+    #prize-draw-modal {
+        ul {
+            margin: 0 calc(#{$desktop-margin} - 1rem) !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    #prize-draw-modal {
+        section {
+            > * {
+                padding: 0 3rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-height: 810px) {
+    .modal {
+        padding: 0 1.5rem 1.5rem;
     }
 }

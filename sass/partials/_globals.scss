@@ -43,6 +43,15 @@ $mobile-margin: 1.5rem;
 $desktop-margin: calc(#{$mobile-margin}*3);
 $big-card-width: 275px;
 $min-modal-width: 285px;
+$max-modal-width: 450px;
+$card-height-mobile: 0;
+$card-width-mobile: 0;
+$card-height-desktop: 200px;
+$card-width-desktop: 320px;
+$card-width-desktop-cs: 415px;
+$modal-margin-desktop: calc(#{$header-height} + #{$desktop-margin}) auto 0;
+$modal-margin-mobile: calc(#{$header-height} + #{$mobile-margin}) auto 0;
+$modal-bottom-margin: 2.5rem;
 
 //-dynamic variable (ready for data integration)--xxx
 //--change to show percentage of way to next tier

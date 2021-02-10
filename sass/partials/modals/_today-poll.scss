@@ -2,7 +2,6 @@
 
 #today-poll-modal {
   section {
-  padding: 0 $mobile-margin;
     h1 {
       padding: 3rem 0 0 0;
       font-size: 1.25rem;
@@ -17,10 +16,13 @@
     }
     form {
       line-height: 3rem;
+      > input {
+        margin: 1rem 1rem 1rem 0; 
+      }   
       label{
         padding: 0 0 0 1rem;
         color: $highlight;
-        font-size: 1.1rem
+        font-size: 1.2rem
       }
       div {
         display: flex;
@@ -35,7 +37,7 @@
         }
         button {
           @include inverted-button;
-          margin-bottom: 1rem;
+          margin-bottom: $modal-bottom-margin;
         }
       }
     }
