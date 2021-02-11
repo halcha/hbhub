@@ -21,8 +21,11 @@ header {
     .logo-container {
       flex-basis: 70%;
     }
+// login button
+
+
 // mobile menu close button
-    button {
+    div:nth-of-type(2) {
       padding: 0;
       background: none;
       border: none;
@@ -34,7 +37,16 @@ header {
         right: 3.5rem;
         top: .75rem
       }
-    }
+      button {
+        @include inverted-button;
+        position: absolute;
+        right: 3.5rem;
+        top: .75rem;
+        background: none;
+        border: white solid 0.1rem;
+        color: white;
+      }
+    }   
   }
   .user-details {
     display: flex;
@@ -52,6 +64,9 @@ header {
         font-weight: normal;
         text-transform: uppercase;
       }
+    }
+    button {
+      display: none;
     }
   } 
 }
