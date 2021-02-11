@@ -338,7 +338,7 @@ header .user-details button {
 
 /* line 110, D:/Projects/local-repos/hbhub/sass/partials/screens/_mobile-nav.scss */
 .mobile-nav > ul > li #login-icon {
-  background: url(/assets/logout.svg) center no-repeat;
+  background: url(/assets/login.svg) center no-repeat;
 }
 
 /* line 114, D:/Projects/local-repos/hbhub/sass/partials/screens/_mobile-nav.scss */
@@ -2159,7 +2159,7 @@ header .user-details button {
   }
   /* line 57, D:/Projects/local-repos/hbhub/sass/partials/media/_desktop-average.scss */
   #login-icon {
-    background: url(/assets/logout-grey.svg) center no-repeat !important;
+    background: url(/assets/login-grey.svg) center no-repeat !important;
   }
   /* line 63, D:/Projects/local-repos/hbhub/sass/partials/media/_desktop-average.scss */
   header {
